@@ -1,4 +1,4 @@
-> 原作者发布: http://pythontips.com/2015/08/17/intermediate-python-released/
+> 原作者发布信息: http://pythontips.com/2015/08/17/intermediate-python-released/
 
 Hey folks! I am feeling really proud to announce the completion of my very own book. After a lot of hard-work and sheer determination this became possible and “Intermediate Python” saw the light of day. It will receive updates over time :)
 
