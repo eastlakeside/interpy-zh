@@ -1,7 +1,6 @@
 # Summary
 
 * [简介](README.md)
-* [前言](preface.md)
    * [作者前言](authur.md)
    * [译者前言](translator.md)
 * [*args and **kwargs](*args and **kwargs/README.md)
