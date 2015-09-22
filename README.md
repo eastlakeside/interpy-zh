@@ -4,7 +4,7 @@ Python进阶
 # 简介
 这本书是IntermediatePython的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
-# 译者团队注意
+# 译者团队注意事项
 > 已经完成了 gitbook 与 github 的完全绑定
 > gitbook: https://www.gitbook.com/book/eastlakeside/interpy-zh/details
 > github: https://github.com/eastlakeside/interpy-zh
