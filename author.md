@@ -6,8 +6,6 @@
 我定期在我的博客里写到有趣的 Python 话题. 2014年我还在柏林举办的 EuroPython 上做过演讲. 那是欧洲最大的 Python 会议. 如果你能给我有趣的工作机会, 请联系我哦.
 
 # 作者前言
-> 
-原文链接: http://pythontips.com/2015/08/17/intermediate-python-released/
 
 Hello 大家好! 我非常自豪地宣布我自己创作的书完成啦. 
 经过很多辛苦工作和决心, 完成终于变成可能, "Intermediate Python"终于杀青. 
