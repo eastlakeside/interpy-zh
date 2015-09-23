@@ -1,59 +1,45 @@
-> 原作者发布信息: http://pythontips.com/2015/08/17/intermediate-python-released/
+# 关于作者
 
-Hey folks! I am feeling really proud to announce the completion of my very own book. After a lot of hard-work and sheer determination this became possible and “Intermediate Python” saw the light of day. It will receive updates over time :)
+我是 Muhammad Yasoob Ullah Khalid. 
 
-Python is an amazing language with a strong and friendly community of programmers. However, there is a lack of documentation on what to learn after getting the basics of Python down your throat. Through this book I aim to solve this problem. I would give you bits of information about some interesting topics which you can further explore.
+我已经广泛使用 Python 编程有3年多了. 我也参与了很多开源项目. 
+我定期在我的博客里写到有趣的 Python 话题. 2014年我还在柏林举办的 EuroPython 上做过演讲. 那是欧洲最大的 Python 会议. 如果你能给我有趣的工作机会, 请联系我哦.
 
-The topics which are discussed in this book open up your mind towards some nice corners of Python language. This book is an outcome of my desire to have something like it when I was beginning to learn Python.
+# 作者前言
+> 
+原文链接: http://pythontips.com/2015/08/17/intermediate-python-released/
 
-If you are a beginner, intermediate or even an advanced programmer there is something for you in this book.
+Hello 大家好! 我非常自豪地宣布我自己创作的书完成啦. 
+经过很多辛苦工作和决心, 完成终于变成可能, "Intermediate Python"终于杀青. 
+它还将持续更新 :)
 
-Please note that this book is not a tutorial and does not teach you Python. The topics are not explained in depth, instead only the minimum required information is given.
+Python 是一个奇妙的语言, 还有一个强大而友爱的程序员社区.
+然而, 在你理解消化掉 Python 的基础后, 关于下一步学习什么的文档比较缺乏. 而我正是要通过这本书解决这一问题.
+我会给你一些可以进一步探索的有趣的话题的信息.
 
-I have decided to distribute it for free! I am sure that it would help those who really want to be helped. Best of luck!
+本书讨论的这些话题将会打开你的脑洞, 将你引导至 Python 语言的一些美好的角落. 我最开始学习 Python 时, 渴望遇到这些美好, 而这本书正是这些渴望的结果.
 
-Table of Contents:
+如果你是个初学者, 中级或者甚至高级程序员, 你也会在这本书里有所所获.
 
-*args and **kwargs
-Debugging
-Generators
-Map & Filter
-set Data Structure
-Ternary Operators
-Decorators
-Global & Return
-Mutation
-__slots__ Magic
-Virtual Environment
-Collections
-Enumerate
-Object introspection
-Comprehensions
-Exceptions
-Lambdas
-One Liners
-For – Else
-Open function
-Targeting Python 2+3
-Coroutines
-Function caching
-Context managers
+请注意这本书不是一个指导手册, 也不会教你 Python. 这些话题并没有深度解释, 而只提供了所需的最少信息.
 
+我肯定你也和我一样兴奋, 那让我们开始吧!
 
-Here are the links:
+# 开源公告
+注意: 这本书是开源的, 也是一个持续进展中的工作. 如果你发现typo, 或者想添加更多内容进来, 或者可以改进的任意地方(我知道你会发现很多),  那么请慷慨地提交一个 pull request, 我会无比高兴地合并进来. :)
 
-Html 
-PDF
-GitHub
+One more thing, 我决定将这本书免费发布!   我肯定它会帮助到那些需要帮助的人. 祝你们好运!
 
+这里是免费阅读链接:
+- [Html](http://book.pythontips.com/) 
+- [PDF](http://readthedocs.org/projects/intermediatepythongithubio/downloads/pdf/latest/)
+- [GitHub](https://github.com/IntermediatePython/intermediatePython)
 
+# 广告
+注意: 你也可以现在为我捐助, 如果你想买[Gumroad](https://gumroad.com/l/intermediate_python) 提供的高大上版本.
 
-P.S: The book is open-source so if you find a typo just send over a pull request. Moreover, if you want to add more content to this book then kindly submit a pull request and I would be more than happy to merge it. :)
+只需要$6, 但是如果你想给的更少或更多, 那么请让我知道, 我会给你一个定制的链接.
 
-Note: You can now donate me as well if you want to by buying the donation version of Intermediate Python from Gumroad :)
-
-It is only for $6 but if you want to pay less or more then kindly let me know and I can give you a custom link.
-
-Last but not the least, if you read this book and find it helpful then a personal email and a tweet about it would mean a lot to me.
+最后而且也很重要的是, 如果你读了这本书, 并且发现它很有帮助, 那么一个私人邮件和一个 tweet 分享, 对我来说会很有意义.
 
 See you later!
