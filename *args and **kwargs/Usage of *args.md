@@ -1,5 +1,7 @@
-# Usage of *args
-*args and **kwargs are mostly used in function definitions. *args and **kwargs allow you to pass a variable number of arguments to a function. What variable means here is that you do not know beforehand how many arguments can be passed to your function by the user so in this case you use these two keywords. *args is used to send a non-keyworded variable length argument list to the function. Here’s an example to help you get a clear idea:
+# *args 的用法
+
+```*args``` 和 ```**kwargs``` 主要用于函数定义. 它们让你可以传递不定数量的参数给一个函数. 这里的不定的意思是, 你预先并不知道, 函数的用户会传递多少个参数给你的函数, 所以在这个场景下你使用这两个关键字. ```*args``` 是用来发送一个非键值对的可变数量的参数列表给一个函数. 这里有个例子让你有个清晰的概念:
+
 
 ```python
 def test_var_args(f_arg, *argv):
@@ -9,3 +11,14 @@ def test_var_args(f_arg, *argv):
 
 test_var_args('yasoob', 'python', 'eggs', 'test')
 ```
+
+这会产生如下的输出结果:
+
+```python
+first normal arg: yasoob
+another arg through *argv: python
+another arg through *argv: eggs
+another arg through *argv: test
+```
+
+我希望这解决了你所有的困惑. 那接下来让我们谈谈 ```**kwargs```
