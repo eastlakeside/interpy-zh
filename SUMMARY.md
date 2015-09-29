@@ -4,7 +4,7 @@
    * [作者前言](author.md)
    * [译者前言](translator.md)
 * [*args 和 **kwargs](*args and **kwargs/README.md)
-   * [Usage of *args](*args and **kwargs/Usage of *args.md)
+   * [*args 的用法](*args and **kwargs/Usage of *args.md)
    * [Usage of **kwargs](*args and **kwargs/Usage of **kwargs.md)
    * [Using *args and **kwargs to call a function](*args and **kwargs/Using *args and **kwargs to call a function.md)
    * [When to use them](*args and **kwargs/When to use them.md)
