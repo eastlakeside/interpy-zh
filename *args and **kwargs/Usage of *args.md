@@ -9,3 +9,11 @@ def test_var_args(f_arg, *argv):
 
 test_var_args('yasoob', 'python', 'eggs', 'test')
 ```
+
+This produces the following result:
+
+first normal arg: yasoob
+another arg through *argv: python
+another arg through *argv: eggs
+another arg through *argv: test
+I hope this cleared away any confusion that you had. So now let’s talk about **kwargs
