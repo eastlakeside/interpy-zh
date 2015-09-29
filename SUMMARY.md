@@ -6,7 +6,7 @@
 * [*args 和 **kwargs](*args and **kwargs/README.md)
    * [*args 的用法](*args and **kwargs/Usage of *args.md)
    * [**kwargs 的用法](*args and **kwargs/Usage of **kwargs.md)
-   * [Using *args and **kwargs to call a function](*args and **kwargs/Using *args and **kwargs to call a function.md)
+   * [使用 *args 和 **kwargs 来调用函数](*args and **kwargs/Using *args and **kwargs to call a function.md)
    * [When to use them](*args and **kwargs/When to use them.md)
 * [Debugging](Debugging/README.md)
 * [Generators](Generators/README.md)
