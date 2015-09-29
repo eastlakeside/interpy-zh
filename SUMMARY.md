@@ -3,7 +3,7 @@
 * [简介](README.md)
    * [作者前言](author.md)
    * [译者前言](translator.md)
-* [*args and **kwargs](*args and **kwargs/README.md)
+* [*args 和 **kwargs](*args and **kwargs/README.md)
    * [Usage of *args](*args and **kwargs/Usage of *args.md)
    * [Usage of **kwargs](*args and **kwargs/Usage of **kwargs.md)
    * [Using *args and **kwargs to call a function](*args and **kwargs/Using *args and **kwargs to call a function.md)
