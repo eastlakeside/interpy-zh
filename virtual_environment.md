@@ -1,28 +1,31 @@
 # 虚拟环境(virtualenv)
-## 你听说过virtualenv吗？
-如果你是一位初学者，你可能没有听说过virtualenv；但如果你是位经验丰富的程序员，那么它可能是你的工具集的重要组织部分。
+## 你听说过```virtualenv```吗？
+如果你是一位初学者，你可能没有听说过```virtualenv```；但如果你是位经验丰富的程序员，那么它可能是你的工具集的重要组织部分。
 
 ## 那么，什么是virtualenv?
-Virtualenv 是一个工具，它能够帮我们创建一个独立(隔离)的Python环境。想象你有一个应用程序，依赖于版本为2的第三方模块，但另一个程序依赖的版本是3，请问你如何使用和开发这些应用程序？
+```Virtualenv``` 是一个工具，它能够帮我们创建一个独立(隔离)的Python环境。想象你有一个应用程序，依赖于版本为2的第三方模块，但另一个程序依赖的版本是3，请问你如何使用和开发这些应用程序？
 
-If you install everything into /usr/lib/python2.7/site-packages (or whatever your platform's standard location is), it's easy to end up in a situation where you unintentionally upgrade a package.
+如果你把一切都安装到了```/usr/lib/python2.7/site-packages```（或者其它平台的标准位置），那很容易出现某个模块被升级而你却不知道的情况。
 
-In another case, imagine that you have an application which is fully developed and you do not want to make any change to the libraries it is using but at the same time you start developing another application which requires the updated versions of those libraries.
+在另一种情况下，想象你有一个已经开发完成的程序，但是你不想更新它所依赖的第三方模块版本；但你已经开始另一个程序，需要这些第三方模块的版本。
 
-What will you do? Use virtualenv! It creates isolated environments for your python application and allows you to install Python libraries in that isolated environment instead of installing them globally.
 
-To install it, just type this command in the shell:
+## 用什么方式解决？
+使用```virtualenv```！针对每个程序创建独立（隔离）的Python环境，而不是在全局安装所依赖的模块。
+
+要安装它，只需要在命令行中输入以下命令：
 
 ```
 $ pip install virtualenv
 ```
-The most important commands are:
+
+最重要的命令是：
 
 ```
 $ virtualenv myproject
 $ source bin/activate
 ```
-This first one makes an isolated virtualenv environment in the myproject folder and the second command activates that isolated environment.
+执行第一个命令在```myproject```文件夹创建一个隔离的virtualenv环境，第二个命令激活这个隔离的环境(```virtualenv```)。
 
 While creating the virtualenv you have to make a decision. Do you want this virtualenv to use packages from your system site-packages or install them in the virtualenv’s site-packages? By default, virtualenv will not give access to the global site-packages.
 
