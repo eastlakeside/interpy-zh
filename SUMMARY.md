@@ -32,7 +32,7 @@
    * Multiple return values
 * Mutation
 * __slots__ Magic
-* Virtual Environment
+* [Virtual Environment](virtual_environment.md)
 * Collections
    * defaultdict
    * counter
