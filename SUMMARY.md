@@ -17,7 +17,7 @@
 * [Map & Filter](Map & Filter/README.md)
    * [Map](Map & Filter/Map.md)
    * [Filter](Map & Filter/Filter.md)
-* set Data Structure
+* [set Data Structure](set_data_structure.md)
 * Ternary Operators
 * Decorators
    * Everything in python is an object
