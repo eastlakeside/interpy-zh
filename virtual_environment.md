@@ -13,21 +13,28 @@ What will you do? Use virtualenv! It creates isolated environments for your pyth
 
 To install it, just type this command in the shell:
 
+```
 $ pip install virtualenv
+```
 The most important commands are:
 
+```
 $ virtualenv myproject
 $ source bin/activate
+```
 This first one makes an isolated virtualenv environment in the myproject folder and the second command activates that isolated environment.
 
 While creating the virtualenv you have to make a decision. Do you want this virtualenv to use packages from your system site-packages or install them in the virtualenv’s site-packages? By default, virtualenv will not give access to the global site-packages.
 
 If you want your virtualenv to have access to your systems site-packages, use the --system-site-packages switch when creating your virtualenv like this:
-
-$ virtualenv --system-site-packages mycoolproject
+```
+virtualenv --system-site-packages mycoolproject
+```
 You can turn off the env by typing:
 
+```
 $ deactivate
+```
 Running python after deactivating will use your system installation of Python again.
 
 Bonus
