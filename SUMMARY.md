@@ -3,12 +3,13 @@
 * [简介](README.md)
    * [作者前言](author.md)
    * [译者前言](translator.md)
+   * [前言](Introduction.md)
 * [*args 和 **kwargs](*args and **kwargs/README.md)
    * [*args 的用法](*args and **kwargs/Usage of *args.md)
    * [**kwargs 的用法](*args and **kwargs/Usage of **kwargs.md)
    * [使用 *args 和 **kwargs 来调用函数](*args and **kwargs/Using *args and **kwargs to call a function.md)
    * [啥时候使用它们](*args and **kwargs/When to use them.md)
-* [Debugging](Debugging/README.md)
+* [调试(Debugging)](Debugging/README.md)
 * [Generators](Generators/README.md)
    * [Iterable](Generators/Iterable.md)
    * [Iterator](Generators/Iterator.md)
@@ -18,41 +19,14 @@
    * [Map](Map & Filter/Map.md)
    * [Filter](Map & Filter/Filter.md)
 * [set Data Structure](set_data_structure.md)
-* Ternary Operators
-* Decorators
-   * Everything in python is an object
-   * Defining functions within functions
-   * Returning functions from within functions
-   * Giving a function as an argument to another function
-   * Writing your first decorator
-       * Use-cases
-       * Authorization
-       * Logging
-* Global & Return
-   * Multiple return values
-* Mutation
-* __slots__ Magic
+* [Ternary Operators](ternary_operators.md)
 * [Virtual Environment](virtual_environment.md)
 * [Collections](collections.md)
-   * defaultdict
-   * counter
-   * deque
-   * namedtuple
-   * enum.Enum
-   * dir
-   * type and id
-   * inspect module
-   * list comprehensions
-   * dict comprehensions
-   * set comprehensions
-   * Handling multiple exceptions
-   * else clause
-   * CTypes
-   * SWIG
-   * Python/C API
-   * Python 3.2+
-   * Python 2+
-   * Implementing Context Manager as a Class
-   * Handling exceptions
-   * Implementing a Context Manager as a Generator
+* [Lambda表达式](Lambdas/README.md)
+* [一行代码](Onelines/README.md)
+* [协程](Coroutines/README.md)
+* [解析(Comprehension)](Comprehensions/README.md)
+   * [列表解析](Comprehensions/list-comprehensions.md)
+   * [字典解析](Comprehensions/dict-comprehensions.md)
+   * [集合解析](Comprehensions/set-comprehensions.md)
 
