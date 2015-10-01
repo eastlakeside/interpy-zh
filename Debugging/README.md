@@ -23,15 +23,16 @@ def make_bread():
 print(make_bread())
 ```
 
-Try running the above script after saving it. You would enter the debugger as soon as you run it. Now it’s time to learn some of the commands of the debugger.
+试下保存上面的脚本后运行之。你会在运行时马上进入debugger模式。现在是时候了解下debugger的一些命令了。
 
-Commands:
+命令列表：
 
-c: continue execution
-w: shows the context of the current line it is executing.
-a: print the argument list of the current function
-s: Execute the current line and stop at the first possible occasion.
-n: Continue execution until the next line in the current function is reached or it returns.
-The difference between next and step is that step stops inside a called function, while next executes called functions at (nearly) full speed, only stopping at the next line in the current function.
+- ```c```: 继续执行
+- ```w```: 显示当前正在执行的代码行的上下文信息
+- ```a```: 打印当前函数的参数列表
+- ```s```: 执行当前代码行，并停在第一个能停的地方（相当于单步进入）
+- ```n```: 继续执行到当前函数的下一行，或者当前行直接返回（单步跳过）
 
-These are just a few commands. pdb also supports post mortem. It is also a really handy function. I would highly suggest you to look at the official documentation and learn more about it.
+单步跳过（```n```ext）和单步进入（```s```tep）的区别在于， 单步进入会进入当前行调用的函数内部并停在里面， 而单步跳过会（几乎）全速执行完当前行调用的函数，并停在当前函数的下一行。
+
+这些知识一些命令。pdb还支持运行后剖析。它也是一个真正方便的功能。我会强烈推荐你去看看官方文档并了解更多。
