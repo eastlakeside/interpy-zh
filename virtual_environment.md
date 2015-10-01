@@ -40,9 +40,10 @@ virtualenv --system-site-packages mycoolproject
 ```
 $ deactivate
 ```
-Running python after deactivating will use your system installation of Python again.
+运行之后将恢复使用你系统全局的Python模块。
 
-Bonus
+# 福利
+你可以使用```smartcd```来帮助你管理你的环境，当你切换目录时，它可以帮助你激活（activate）和退出（deactivate）你的virtualenv。我已经用了很多次，很喜欢它。你可以在github上找到更多关于它的资料。
 
 You can use smartcd which is a library for bash and zsh and allows you to alter your bash (or zsh) environment as you cd. It can be really helpful to activate and deactivate a virtualenv when you change directories. I have used it quite a lot and love it. You can read more about it on GitHub
 
