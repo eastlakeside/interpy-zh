@@ -33,7 +33,7 @@
 * Mutation
 * __slots__ Magic
 * [Virtual Environment](virtual_environment.md)
-* Collections
+* [Collections](collections.md)
    * defaultdict
    * counter
    * deque
