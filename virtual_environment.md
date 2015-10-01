@@ -43,8 +43,6 @@ $ deactivate
 运行之后将恢复使用你系统全局的Python模块。
 
 # 福利
-你可以使用```smartcd```来帮助你管理你的环境，当你切换目录时，它可以帮助你激活（activate）和退出（deactivate）你的virtualenv。我已经用了很多次，很喜欢它。你可以在github上找到更多关于它的资料。
+你可以使用```smartcd```来帮助你管理你的环境，当你切换目录时，它可以帮助你激活（activate）和退出（deactivate）你的virtualenv。我已经用了很多次，很喜欢它。你可以在github(https://github.com/cxreg/smartcd)上找到更多关于它的资料。
 
-You can use smartcd which is a library for bash and zsh and allows you to alter your bash (or zsh) environment as you cd. It can be really helpful to activate and deactivate a virtualenv when you change directories. I have used it quite a lot and love it. You can read more about it on GitHub
-
-This was just a short intro to virtualenv. There's a lot more to it; this link has more information.
+这只是一个virtualenv的简短介绍，你可以在 http://docs.python-guide.org/en/latest/dev/virtualenvs/ 找到更多信息。
