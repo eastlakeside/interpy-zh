@@ -27,13 +27,15 @@ $ source bin/activate
 ```
 执行第一个命令在```myproject```文件夹创建一个隔离的virtualenv环境，第二个命令激活这个隔离的环境(```virtualenv```)。
 
-While creating the virtualenv you have to make a decision. Do you want this virtualenv to use packages from your system site-packages or install them in the virtualenv’s site-packages? By default, virtualenv will not give access to the global site-packages.
+在创建virtualenv时，你必须做出决定：这个virtualenv是使用系统全局的模块呢？还是只使用这个virtualenv内的模块。
+默认情况下，virtualenv不会使用系统全局模块。
 
-If you want your virtualenv to have access to your systems site-packages, use the --system-site-packages switch when creating your virtualenv like this:
+如果你想让你的virtualenv使用系统全局模块，请使用```--system-site-packages```参数创建你的virtualenv，例如：
+
 ```
 virtualenv --system-site-packages mycoolproject
 ```
-You can turn off the env by typing:
+使用以下命令可以退出这个virtualenv:
 
 ```
 $ deactivate
