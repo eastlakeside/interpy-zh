@@ -183,54 +183,81 @@ print(d)
 
 # namedtuple
 
-You might already be acquainted with tuples. A tuple is basically a immutable list which allows you to store a sequence of values separated by commas. They are just like lists but have a few key differences. The major one is that unlike lists, you can not reassign an item in a tuple. In order to access the value in a tuple you use integer indexes like:
+您可能已经熟悉元组。
+一个元组是一个不可变的列表，你可以存储一个数据的序列，它和命名元组(```namedtuples```)非常像，但有几个关键的不同。主要相似点是都不像列表，你不能修改元组中的数据。为了获取元组中的数据，你需要使用整数作为索引：
 
+
+```
 man = ('Ali', 30)
 print(man[0])
-# Output: Ali
-Well, so now what are namedtuples? They turn tuples into convenient containers for simple tasks. With namedtuples you don't have to use integer indexes for accessing members of a tuple. You can think of namedtuples like dictionaries but unlike dictionaries they are immutable.
+```
+## 输出: Ali
 
+嗯，那```namedtuples```是什么呢？它把元组变成一个针对简单任务的容器。你不必使用整数索引来访问一个```namedtuples```的数据。你可以像字典(```dict```)一样访问```namedtuples```，但```namedtuples```是不可变的。
+
+```
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
 perry = Animal(name="perry", age=31, type="cat")
 
 print(perry)
-# Output: Animal(name='perry', age=31, type='cat')
+```
+## 输出: Animal(name='perry', age=31, type='cat')
 
+```
 print(perry.name)
-# Output: 'perry'
-You can now see that we can access members of a tuple just by their name using a .. Let's dissect it a little more. A named tuple has two required arguments. They are the tuple name and the tuple field_names. In the above example our tuple name was 'Animal' and the tuple field_names were 'name', 'age' and 'cat'. Namedtuple makes your tuples self-document. You can easily understand what is going on by having a quick glance at your code. And as you are not bound to use integer indexes to access members of a tuple, it makes it more easy to maintain your code. Moreover, as `namedtuple` instances do not have per-instance dictionaries, they are lightweight and require no more memory than regular tuples. This makes them faster than dictionaries. However, do remember that as with tuples, attributes in namedtuples are immutable. It means that this would not work:
+```
+## 输出: 'perry'
 
+现在你可以看到，我们可以用名字来访问```namedtuple```中的数据。我们再继续分析它。一个命名元组(```namedtuple```)有两个必需的参数。它们是元组名称和字段名称。
+在上面的例子中，我们的元组名称是```Animal```，字段名称是'name'，'age'和'cat'。
+```namedtuple```帮助你的元组包含自说明。
+你只要看一眼就很容易理解代码是做什么的。
+你也不应该使用整数索引来访问一个命名元组，因此```namedtuple```使代码更易于维护。
+而且，```namedtuple```不像字典一样单独分配一个实例，它很轻量，与普通的元组比，并不需要更多的内存。这使得它比字典快。
+然而，要记住它是一个元组，属性（数据）在```namedtuple```中是不可变的，所以下面的代码不能工作：
+
+```
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
 perry = Animal(name="perry", age=31, type="cat")
 perry.age = 42
+```
 
-# Output: Traceback (most recent call last):
-#            File "", line 1, in
-#         AttributeError: can't set attribute
-You should use named tuples to make your code self-documenting. They are backwards compatible with normal tuples. It means that you can use integer indexes with namedtuples as well:
+## 输出:
+```
+Traceback (most recent call last):
+            File "", line 1, in
+         AttributeError: can't set attribute
+```
+你应该使用命名元组来使代码更为可读，它向后兼容于普通的元组，你可以既使用整数索引，也可以使用名称来访问```namedtuple```：
 
+```
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
 perry = Animal(name="perry", age=31, type="cat")
 print(perry[0])
-# Output: perry
-Last but not the least, you can convert a namedtuple to a dictionary. Like this:
+```
+## 输出: perry
+最后，你可以将一个命名元组转换为字典，方法如下：
 
+```
 from collections import namedtuple
 
 Animal = namedtuple('Animal', 'name age type')
 perry = Animal(name="Perry", age=31, type="cat")
 print(perry._asdict())
-# Output: OrderedDict([('name', 'Perry'), ('age', 31), ...
-enum.Enum (Python 3.4+)
+```
+## 输出: OrderedDict([('name', 'Perry'), ('age', 31), ...
 
-Another useful collection is the enum object. It is available in the enum module, in Python 3.4 and up (also available as a backport in PyPI named enum34.) Enums (enumerated type) are basically a way to organize various things.
+# enum.Enum (Python 3.4+)
 
+另一个有用的collection模块是枚举对象，它包含在```enum```模块，在Python 3.4以上（其它版本的Python也可以在pypi上安装名为enum34的模块）。Enums(枚举类型)是一种基础的方式，来组成各种各样的的东西。
+
+让我们回顾一下上一个'Animal'命名元组的例子。
 Let’s consider the Animal namedtuple from the last example. It had a type field. The problem is, the type was a string. This poses some problems for us. What if the user types in Cat because they held the Shift key? Or CAT? Or kitten?
 
 Enumerations can help us avoid this problem, by not using strings. Consider this example:
