@@ -212,7 +212,7 @@ print(perry.name)
 
 现在你可以看到，我们可以用名字来访问```namedtuple```中的数据。我们再继续分析它。一个命名元组(```namedtuple```)有两个必需的参数。它们是元组名称和字段名称。
 在上面的例子中，我们的元组名称是```Animal```，字段名称是'name'，'age'和'cat'。
-```namedtuple```帮助你的元组包含自说明。
+namedtuple帮助你的元组包含自说明。
 你只要看一眼就很容易理解代码是做什么的。
 你也不应该使用整数索引来访问一个命名元组，因此```namedtuple```使代码更易于维护。
 而且，```namedtuple```不像字典一样单独分配一个实例，它很轻量，与普通的元组比，并不需要更多的内存。这使得它比字典快。
@@ -232,6 +232,7 @@ Traceback (most recent call last):
             File "", line 1, in
          AttributeError: can't set attribute
 ```
+
 你应该使用命名元组来使代码更为可读，它向后兼容于普通的元组，你可以既使用整数索引，也可以使用名称来访问```namedtuple```：
 
 ```
@@ -258,10 +259,12 @@ print(perry._asdict())
 另一个有用的collection模块是枚举对象，它包含在```enum```模块，在Python 3.4以上（其它版本的Python也可以在pypi上安装名为enum34的模块）。Enums(枚举类型)是一种基础的方式，来组成各种各样的的东西。
 
 让我们回顾一下上一个'Animal'命名元组的例子。
-Let’s consider the Animal namedtuple from the last example. It had a type field. The problem is, the type was a string. This poses some problems for us. What if the user types in Cat because they held the Shift key? Or CAT? Or kitten?
+它有一个字段类型，这给我们带来了一些问题：
+如果用户输入的时候按到了Shift键？那'key'应该是什么，是'CAT'还是'kitten'？
 
-Enumerations can help us avoid this problem, by not using strings. Consider this example:
+枚举可以帮助我们避免这个问题，不需要使用字符串。考虑以下这个例子：
 
+```
 from collections import namedtuple
 from enum import Enum
 
@@ -286,16 +289,22 @@ perry = Animal(name="Perry", age=31, type=Species.cat)
 drogon = Animal(name="Drogon", age=4, type=Species.dragon)
 tom = Animal(name="Tom", age=75, type=Species.cat)
 charlie = Animal(name="Charlie", age=2, type=Species.kitten)
+```
 
-# And now, some tests.
+## 现在，我们进行一些测试：
+```
 >>> charlie.type == tom.type
 True
 >>> charlie.type
 <Species.cat: 1>
-This is much less error-prone. We have to be specific, and we should use only the enumeration to name types.
+```
 
-There are three ways to access enumeration members. For example, all three methods will get you the value for cat:
+这会减少错误，我们必须定义，而且我们应该只使用定义后的枚举类型。
 
+有三种方法访问枚举数据，例如以下方法都可以获取到'cat'的值：
+
+```
 Species(1)
 Species['cat']
 Species.cat
+```
