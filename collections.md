@@ -144,35 +144,44 @@ print(d[-1])
 d = deque(range(5))
 print(len(d))
 ```
-# 输出: 5
+## 输出: 5
 
 ```
 d.popleft()
 ```
-# 输出: 0
+## 输出: 0
 
 ```
 d.pop()
 ```
-# 输出: 4
+## 输出: 4
 
 ```
 print(d)
 ```
 # 输出: deque([1, 2, 3])
-We can also limit the amount of items a deque can hold. By doing this when we achieve the maximum limit of our deque it will simply pop out the items from the opposite end. It is better to explain it using an example so here you go:
 
+我们也可以限制这个列表的大小，当超出你设定的限制时，数据会从对端流出去(pop)。
+最好的解释是给出一个例子：
+
+```
 d = deque(maxlen=30)
-Now whenever you insert values after 30, the leftmost value will be popped from the list. You can also expand the list in any direction with new values:
+```
+现在当你插入30条数据时，最左边(最早？)的数据将从队列中删除。
 
+你还可以从任一端扩展这个队列中的数据：
+
+```
 d = deque([1,2,3,4,5])
 d.extendleft([0])
 d.extend([6,7,8])
 print(d)
-# Output: deque([0, 1, 2, 3, 4, 5, 6, 7, 8])
-This was just a quick drive through the collections module. Make sure you read the official documentation after reading this.
+```
 
-namedtuple
+## 输出: deque([0, 1, 2, 3, 4, 5, 6, 7, 8])
+这只是一个快速浏览```collections```模块的介绍，建议你阅读本文最后的官方文档。
+
+# namedtuple
 
 You might already be acquainted with tuples. A tuple is basically a immutable list which allows you to store a sequence of values separated by commas. They are just like lists but have a few key differences. The major one is that unlike lists, you can not reassign an item in a tuple. In order to access the value in a tuple you use integer indexes like:
 
