@@ -1,17 +1,18 @@
-# Collections
-Python ships with a module that contains a number of container data types called Collections. We will talk about a few of them and discuss their usefulness.
+# 收集器(Collections)
+Python附带一个模块，它包含许多容器数据类型，名字叫作collections。我们将讨论它的作用和用法。
 
-The ones which we will talk about are:
+我们将讨论的是：
 
-defaultdict
-counter
-deque
-namedtuple
-enum.Enum (outside of the module; Python 3.4+)
-defaultdict
+* defaultdict
+* counter
+* deque
+* namedtuple
+* enum.Enum (包含在Python 3.4以上)
 
-I personally use defaultdict quite a bit. Unlike dict, with defaultdict you do not need to check whether a key is present or not. So we can do:
+# defaultdict
 
+我个人使用```defaultdict```较多，与```dict```类型不同，你不需要检查**key**是否存在，所以我们能这样做：
+```
 from collections import defaultdict
 
 colours = (
@@ -29,37 +30,48 @@ for name, colour in colours:
     favourite_colours[name].append(colour)
 
 print(favourite_colours)
+```
 
-# output
+## 运行输出
+```
 # defaultdict(<type 'list'>,
 #    {'Arham': ['Green'],
 #     'Yasoob': ['Yellow', 'Red'],
 #     'Ahmed': ['Silver'],
 #     'Ali': ['Blue', 'Black']
 # })
-One other very important use case is when you are appending to nested lists inside a dictionary. If a key is not already present in the dictionary then you are greeted with a KeyError. defaultdict allows us to circumvent this issue in a clever way. First let me share an example using dict which raises KeyError and then I will share a solution using defaultdict.
+```
+另一种重要的是例子就是：当你在**字典(dict)**中用**列表(list)**作key，如果**key**不存在，会返回```keyError```异常。 ```defaultdict```允许我们用一个聪明的方式绕过这个问题。
+ 首先我分享一个例子，使用```dict```获得```KeyError```，然后提供一个使用```defaultdict```的解决方案。
 
-Problem:
+问题：
 
+```
 some_dict = {}
 some_dict['colours']['favourite'] = "yellow"
-# Raises KeyError: 'colours'
-Solution:
+```
 
+## 异常输出：KeyError: 'colours'
+解决方案：
+
+```
 import collections
 tree = lambda: collections.defaultdict(tree)
 some_dict = tree()
 some_dict['colours']['favourite'] = "yellow"
-# Works fine
-You can print some_dict using json.dumps. Here is some sample code:
-
+```
+## 工作正常
+你可以用```json.dumps```打印出```some_dict```，例如：
+```
 import json
 print(json.dumps(some_dict))
-# Output: {"colours": {"favourite": "yellow"}}
-counter
+```
+## 输出: {"colours": {"favourite": "yellow"}}
+# counter
 
-Counter allows us to count the occurrences of a particular item. For instance it can be used to count the number of individual favourite colours:
+Counter是一个计数器，它可以帮助我们针对某项数据进行计数。比如它可以用来计算每个人喜欢多少种颜色：
 
+```
 from collections import Counter
 
 colours = (
@@ -73,40 +85,59 @@ colours = (
 
 favs = Counter(name for name, colour in colours)
 print(favs)
-# Output: Counter({
-#    'Yasoob': 2,
-#    'Ali': 2,
-#    'Arham': 1,
-#    'Ahmed': 1
-# })
-We can also count the most common lines in a file using it. For example:
+```
+## 输出:
+```
+Counter({
+    'Yasoob': 2,
+    'Ali': 2,
+    'Arham': 1,
+    'Ahmed': 1
+ })
+```
+我们也可以在利用它统计一个文件，例如：
 
+```
 with open('filename', 'rb') as f:
     line_count = Counter(f)
 print(line_count)
-deque
+```
 
-deque provides you with a double ended queue which means that you can append and delete elements from either side of the queue. First of all you have to import the deque module from the collections library:
+# deque
 
+deque提供了一个双端队列，你可以从头/尾两端添加或删除元素。要想使用它，首先我们要从```collections```中导入```deque```模块：
+
+```
 from collections import deque
-Now we can instantiate a deque object.
+```
+现在，你可以创建一个```deque```对象。
 
+```
 d = deque()
+```
 It works like python lists and provides you with somewhat similar methods as well. For example you can do:
 
+```
 d = deque()
 d.append('1')
 d.append('2')
 d.append('3')
 
 print(len(d))
-# Output: 3
+```
 
+## 输出: 3
+
+```
 print(d[0])
-# Output: '1'
+```
 
+## 输出: '1'
+
+```
 print(d[-1])
-# Output: '3'
+```
+## 输出: '3'
 You can pop values from both sides of the deque:
 
 d = deque(range(5))
