@@ -138,20 +138,28 @@ print(d[0])
 print(d[-1])
 ```
 ## 输出: '3'
-You can pop values from both sides of the deque:
+你可以从两端取出(pop)数据：
 
+```
 d = deque(range(5))
 print(len(d))
-# Output: 5
+```
+# 输出: 5
 
+```
 d.popleft()
-# Output: 0
+```
+# 输出: 0
 
+```
 d.pop()
-# Output: 4
+```
+# 输出: 4
 
+```
 print(d)
-# Output: deque([1, 2, 3])
+```
+# 输出: deque([1, 2, 3])
 We can also limit the amount of items a deque can hold. By doing this when we achieve the maximum limit of our deque it will simply pop out the items from the opposite end. It is better to explain it using an example so here you go:
 
 d = deque(maxlen=30)
