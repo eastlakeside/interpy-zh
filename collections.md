@@ -115,7 +115,7 @@ from collections import deque
 ```
 d = deque()
 ```
-It works like python lists and provides you with somewhat similar methods as well. For example you can do:
+它的用法就像python的```list```，并且提供了类似的方法，例如：
 
 ```
 d = deque()
