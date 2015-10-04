@@ -1,6 +1,7 @@
-# 5. set Data Structure
-set is a really useful data structure. sets behave mostly like lists with the distinction that they can not contain duplicate values. It is really useful in a lot of cases. For instance you might want to check whether there are duplicates in a list or not. You have two options. The first one involves using a for loop. Something like this:
+# set(集合)数据结构
+set(集合)是一个非常有用的数据结构。它与列表(list)的区别主要是set不包含重复的数据。这在很多情况下非常有用。例如你可能想去除列表中的重复数据，你有两个选择，第一个使用```for```循环来遍历列表，就像这样：
 
+```
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 
 duplicates = []
@@ -10,36 +11,44 @@ for value in some_list:
             duplicates.append(value)
 
 print(duplicates)
-# Output: ['b', 'n']
-But there is a simpler and more elegant solution involving sets. You can simply do something like this:
+```
+### 输出: ['b', 'n']
+但还有一种更简单更优雅的解决方案，使用```集合(sets)```，你可以这样做：
 
+```
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 duplicates = set([x for x in some_list if some_list.count(x) > 1])
 print(duplicates)
-# Output: set(['b', 'n'])
-Sets also have a few other methods. Below are some of them.
+```
+### 输出: set(['b', 'n'])
+集合还有一些其它方法，下面我们一一介绍主要的使用方法。
 
-Intersection
+## 交集
 
-You can intersect two sets. For instance:
+你可以对比两个集合的交集（两个集合中都有的数据），如下：
 
+```
 valid = set(['yellow', 'red', 'blue', 'green', 'black'])
 input_set = set(['red', 'brown'])
 print(input_set.intersection(valid))
-# Output: set(['red'])
-Difference
+```
+### 输出: set(['red'])
 
-You can find the invalid values in the above example using the difference method. For example:
+## 差异
 
+你可以用差异(difference)找出无效的数据，相当于用一个集合减去另一个集合的数据，例如：
+
+```
 valid = set(['yellow', 'red', 'blue', 'green', 'black'])
 input_set = set(['red', 'brown'])
 print(input_set.difference(valid))
-# Output: set(['brown'])
-You can also create sets using the new notation:
+```
+### 输出: set(['brown'])
+你也可以用符号来创建集合，如：
 
+```
 a_set = {'red', 'blue', 'green'}
 print(type(a_set))
-# Output: <type 'set'>
-There are a few other methods as well. I would recommend visiting the official documentation and giving it a quick read.
-
-Next  Previous
+```
+### 输出: <type 'set'>
+集合还有一些其它方法，建议继续阅读官方文档。
