@@ -19,7 +19,7 @@
    * [Filter](Map & Filter/Filter.md)
 * [set Data Structure](set_data_structure.md)
 * [Ternary Operators](ternary_operators.md)
-* Decorators
+* [Decorators]()
    * Everything in python is an object
    * Defining functions within functions
    * Returning functions from within functions
@@ -34,25 +34,38 @@
 * __slots__ Magic
 * [Virtual Environment](virtual_environment.md)
 * [Collections](collections.md)
-   * defaultdict
    * counter
    * deque
    * namedtuple
    * enum.Enum
+* [Enumerate]()
+* [Object introspection]()
    * dir
    * type and id
    * inspect module
+* [Comprehensions]()
    * list comprehensions
    * dict comprehensions
    * set comprehensions
+* [Exceptions]()
    * Handling multiple exceptions
-   * else clause
-   * CTypes
+* [Lambda表达式](Lambdas/README.md)
+* [一行代码](Onelines/README.md)
+* [For - Else]()
+* [Python C extensions]()
+   * CTypes 
    * SWIG
    * Python/C API
+* [Open function]()
+* [Targeting Python 2+3]()
+* [协程](Coroutines/README.md)
+* [Function caching]()
    * Python 3.2+
    * Python 2+
+* [Context managers]()
    * Implementing Context Manager as a Class
    * Handling exceptions
    * Implementing a Context Manager as a Generator
+
+
 
