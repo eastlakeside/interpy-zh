@@ -34,20 +34,25 @@ state = "fat" if is_fat else "not fat"
 fat = True
 fitness = ("skinny", "fat")[fat]
 print("Ali is ", fitness)
+#输出: Ali is fat
 ```
-## 输出: Ali is fat
-This works simply because True == 1 and False == 0, and so can be done with lists in addition to tuples.
+这之所以工作，是因为在Python中，True等于1，而False等于0，这就相当于在元组中使用0和1来选取数据。
 
-The above example is not widely used and is generally disliked by Pythonistas for not being Pythonic. It is also easy to confuse where to put the true value and where to put the false value in the tuple.
+上面的例子一般不推荐这样使用，Python用户不喜欢不那么Python味儿(Pythonic)的方法。因为这样的用法很容易把真正的数据与true/false弄混。
 
-Another reason to avoid using a tupled ternery is that it results in both elements of the tuple being evaluated, whereas the if-else ternary operator does not.
+另外一个不使用元组条件表达式的缘故是因为在元组中会把两个条件都执行，而 `if-else` 的条件表达式不会这样。
 
-Example:
+例如:
 
+```
 condition = True
 print(2 if condition else 1/0)
-#Output is 2
+#输出: 2
 
 print((1/0, 2)[condition])
-#ZeroDivisionError is raised
-This happens because with the tupled ternary technique, the tuple is first built, then an index is found. For the if-else ternary operator, it follows the normal if-else logic tree. Thus, if one case could raise an exception based on the condition, or if either case is a computation-heavy method, using tuples is best avoided.
+#输出ZeroDivisionError异常
+```
+
+这是因为在元组中是先建数据，然后用True(1)/False(0)来索引到数据。
+而`if-else`条件表达式遵循普通的`if-else`逻辑树，
+因此，如果逻辑中的条件异常，或者是重计算型（计算较久）的情况下，尽量避免使用元组条件表达式。
