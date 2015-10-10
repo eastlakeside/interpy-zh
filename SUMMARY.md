@@ -3,7 +3,7 @@
 * [简介](README.md)
    * [作者前言](author.md)
    * [译者前言](translator.md)
-   * 前言
+   * [前言](Introduction.md)
 * [*args 和 **kwargs](*args and **kwargs/README.md)
    * [*args 的用法](*args and **kwargs/Usage of *args.md)
    * [**kwargs 的用法](*args and **kwargs/Usage of **kwargs.md)
@@ -20,8 +20,6 @@
    * [Filter](Map & Filter/Filter.md)
 * [set Data Structure](set_data_structure.md)
 * [Ternary Operators](ternary_operators.md)
-* Decorators
-   * Everything in python is an object
 * [Virtual Environment](virtual_environment.md)
 * [Collections](collections.md)
 * [Lambda表达式](Lambdas/README.md)
