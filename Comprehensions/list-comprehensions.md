@@ -1,7 +1,5 @@
 # 列表解析（```list``` comprehensions）
 
-List comprehensions provide a short and concise way to create lists. It consists of square brackets containing an expression followed by a for clause, then zero or more for or if clauses. The expressions can be anything, meaning you can put in all kinds of objects in lists. The result would be a new list made after the evaluation of the expression in context of the if and for clauses.
-
 列表解析提供了一种简明扼要的方法来创建列表。它的结构是在一个中括号里包含一个表达式，然后是一个for语句，然后是0个或多个for或者if语句。这个表达式可以是任意的，意思是你可以在列表中放入任意类型的对象。返回结果将是一个新的列表，在这个以if和for语句为上下文的表达式运行完成之后产生。
 
 
