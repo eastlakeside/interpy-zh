@@ -5,7 +5,7 @@ List comprehensions provide a short and concise way to create lists. It consists
 列表解析提供了一种简明扼要的方法来创建列表。它的结构是在一个中括号里包含一个表达式，然后是一个for语句，然后是0个或多个for或者if语句。这个表达式可以是任意的，意思是你可以在列表中放入任意类型的对象。返回结果将是一个新的列表，在这个以if和for语句为上下文的表达式运行完成之后产生。
 
 
-### 蓝图
+### 规范
 
 ```
 variable = [out_exp for out_exp in input_list if out_exp == 2]
