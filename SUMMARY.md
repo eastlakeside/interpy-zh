@@ -27,4 +27,5 @@
 * [协程](Coroutines/README.md)
 * [Comprehensions](Comprehensions/README.md)
    * 列表解析
+   * 字典解析
 
