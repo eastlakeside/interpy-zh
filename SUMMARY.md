@@ -26,7 +26,7 @@
 * [一行代码](Onelines/README.md)
 * [协程](Coroutines/README.md)
 * [Comprehensions](Comprehensions/README.md)
-   * [列表解析](list-comprehension.md)
-   * 字典解析
-   * 集合解析
+   * [列表解析](list-comprehensions.md)
+   * [字典解析](dict-comprehensions.md)
+   * [集合解析](set-comprehensions.md)
 
