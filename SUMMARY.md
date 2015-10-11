@@ -25,7 +25,7 @@
 * [Lambda表达式](Lambdas/README.md)
 * [一行代码](Onelines/README.md)
 * [协程](Coroutines/README.md)
-* [各种解析](Comprehensions/README.md)
+* [解析(Comprehension)](Comprehensions/README.md)
    * [列表解析](Comprehensions/list-comprehensions.md)
    * [字典解析](Comprehensions/dict-comprehensions.md)
    * [集合解析](Comprehensions/set-comprehensions.md)
