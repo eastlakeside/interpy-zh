@@ -1,3 +1,3 @@
-# Iteration
+# 迭代(Iteration)
 
-In simple words it is the process of taking an item from something e.g a list. When we use a loop to loop over something it is called iteration. It is the name given to the process itself. Now as we have a basic understanding of these terms let’s understand generators.
+用简单的话讲，它就是从某个地方（比如一个列表）取出一个元素的过程。当我们使用一个循环来遍历某个东西时，这就叫一个迭代。它是这个过程本身的名字。现在既然我们有了这些术语的基本理解，那我们开始理解生成器吧。
