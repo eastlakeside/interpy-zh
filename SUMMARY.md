@@ -10,7 +10,7 @@
    * [使用 *args 和 **kwargs 来调用函数](*args and **kwargs/Using *args and **kwargs to call a function.md)
    * [啥时候使用它们](*args and **kwargs/When to use them.md)
 * [调试(Debugging)](Debugging/README.md)
-* [Generators](Generators/README.md)
+* [生成器(Generators)](Generators/README.md)
    * [Iterable](Generators/Iterable.md)
    * [Iterator](Generators/Iterator.md)
    * [Iteration](Generators/Iteration.md)
