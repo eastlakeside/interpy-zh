@@ -21,11 +21,8 @@ for item in generator_function():
 # 9
 ```
 
-在这个案例中不是非常有用。生成器最佳应用场景是，计算大量结果集（特别是包含循环的计算），而你不想在同一时间给所有结果集分配内存。许多Python 2标准库里的返回列表的函数，在Python 3里都修改成了返回生成器，因为生成器只需要更少的资源。
+在这个案例中不是非常有用。生成器最佳应用场景是，计算大量结果集（特别是结果集里还包含循环本身的），而你不想在同一时间给所有结果集分配内存。许多Python 2标准库里的返回列表的函数，在Python 3里都修改成了返回生成器，因为生成器只需要更少的资源。
 下面是一个计算斐波那契数列的生成器：
-It is not really useful in this case. Generators are best for calculating large sets of results (particularly calculations involving loops themselves) where you don’t want to allocate the memory for all results at the same time. Many Standard Library functions that return lists in Python 2 have been modified to return generators in Python 3 because generators require fewer resources.
-
-Here is an example generator which calculates fibonacci numbers:
 
 ```
 # generator version
@@ -39,7 +36,8 @@ Now we can use it like this:
 for x in fibon(1000000):
     print(x)
 ```
-This way we would not have to worry about it using a lot of resources. However, if we would have implemented it like this:
+
+用这种方式，我们可以不用担心它会使用大量资源。然而，之前如果我们这样来实现的话：
 
 ```
 def fibon(n):
@@ -50,7 +48,8 @@ def fibon(n):
         a, b = b, a + b
     return result
 ```
-It would have used up all our resources while calculating a large input. We have discussed that we can iterate over generators only once but we haven’t tested it. Before testing it you need to know about one more built-in function of Python, next(). It allows us to access the next element of a sequence. So let’s test out our understanding:
+
+它也许会在计算很大的输入参数时，用尽我们所有的资源。我们已经讨论了只能对生成器使用一次迭代，但我们还没有测试过。在测试钱你需要再知道一个Python内置函数：next()。它允许我们获取一个序列的下一个元素。那我们来验证下我们的理解：
 
 ```
 def generator_function():
