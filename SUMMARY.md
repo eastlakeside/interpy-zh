@@ -11,7 +11,7 @@
    * [啥时候使用它们](*args and **kwargs/When to use them.md)
 * [调试(Debugging)](Debugging/README.md)
 * [生成器(Generators)](Generators/README.md)
-   * [Iterable](Generators/Iterable.md)
+   * [可迭代对象(Iterable)](Generators/Iterable.md)
    * [Iterator](Generators/Iterator.md)
    * [Iteration](Generators/Iteration.md)
    * [Generators](Generators/Generators.md)
