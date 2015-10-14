@@ -1,10 +1,9 @@
 # 生成器（Generators）
 
-First lets understand iterators. According to Wikipedia, an iterator is an object that enables a programmer to traverse a container, particularly lists. However, an iterator performs traversal and gives access to data elements in a container, but does not perform iteration. You might be confused so lets take it a bit slow. There are three parts namely:
+首先我们要理解迭代器(iterators)。根据维基百科，迭代器是一个让程序员可以遍历一个容器（特别是列表）的对象。然而，一个迭代器在遍历并读取一个容器的数据元素时，并不会执行一个迭代。你可以有点晕了，那我们来个慢动作。换句话说这里有三个部分：
 
+- 可迭代对象(Iterable)
+- 迭代器(Iterator)
+- 迭代(Iteration)
 
-
-Iterable
-Iterator
-Iteration
-All of these parts are linked to each other. We will discuss them one by one and later talk about generators.
+上面这些部分互相联系。我们会先各个击破来讨论他们，然后再讨论生成器(generators).
