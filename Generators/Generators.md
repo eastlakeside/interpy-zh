@@ -1,6 +1,6 @@
-# Generators
+# 生成器(Generators)
 
-Generators are iterators, but you can only iterate over them once. It’s because they do not store all the values in memory, they generate the values on the fly. You use them by iterating over them, either with a ‘for’ loop or by passing them to any function or construct that iterates. Most of the time generators are implemented as functions. However, they do not return a value, they yield it. Here is a simple example of a generator function:
+生成器也是一种迭代器，但是你只能对其迭代一次。这是因为他们并没有把所有的值存在内存中，他们在运行时生成值。你通过遍历来使用它们，要么用一个“for”循环，要么将它们传递给任意可以进行迭代的函数和结构。大多数时候生成器是以函数来实现的。然而，它们并不返回一个值，而是yield(暂且译作“生出”)一个值。这里有个生成器函数的简单例子：
 ```
 def generator_function():
     for i in range(10):
@@ -21,6 +21,8 @@ for item in generator_function():
 # 9
 ```
 
+在这个案例中不是非常有用。生成器最佳应用场景是，计算大量结果集（特别是包含循环的计算），而你不想在同一时间给所有结果集分配内存。许多Python 2标准库里的返回列表的函数，在Python 3里都修改成了返回生成器，因为生成器只需要更少的资源。
+下面是一个计算斐波那契数列的生成器：
 It is not really useful in this case. Generators are best for calculating large sets of results (particularly calculations involving loops themselves) where you don’t want to allocate the memory for all results at the same time. Many Standard Library functions that return lists in Python 2 have been modified to return generators in Python 3 because generators require fewer resources.
 
 Here is an example generator which calculates fibonacci numbers:
