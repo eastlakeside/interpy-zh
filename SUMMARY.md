@@ -7,7 +7,7 @@
 * [*args 和 **kwargs](args_kwargs/README.md)
    * [*args 的用法](args_kwargs/Usage_args.md)
    * [**kwargs 的用法](args_kwargs/Usage_kwargs.md)
-   * [使用 *args 和 **kwargs 来调用函数](args_kwargs/Using_args and_kwargs_to_call_function.md)
+   * [使用 *args 和 **kwargs 来调用函数](args_kwargs/Using_args_and_kwargs_to_call_function.md)
    * [啥时候使用它们](args_kwargs/When_to_use.md)
 * [调试(Debugging)](Debugging/README.md)
 * [生成器(Generators)](Generators/README.md)
