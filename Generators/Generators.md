@@ -68,7 +68,8 @@ print(next(gen))
 #            File "<stdin>", line 1, in <module>
 #         StopIteration
 ```
-As we can see that after yielding all the values next() caused a StopIteration error. Basically this error informs us that all the values have been yielded. You might be wondering that why don’t we get this error while using a for loop? Well the answer is simple. The for loop automatically catches this error and stops calling next. Do you know that a few built-in data types in Python also support iteration? Let’s check it out:
+
+我们可以看到，在yield掉所有的值后，next()触发了一个StopIteration的异常。基本上这个异常告诉我们，所有的值都已经被yield完了。你也许会奇怪，为什么我们在使用for循环时没有这个异常呢？啊哈，答案很简单。for循环会自动捕捉到这个异常并停止调用next()。你知不知道Python中一些内置数据类型也支持迭代哦？我们这就去看看：
 
 ```
 my_string = "Yasoob"
@@ -78,12 +79,11 @@ next(my_string)
 #    TypeError: str object is not an iterator
 ```
 
-Well that’s not what we expected. The error says that str is not an iterator. Well it is right! It is an iterable but not an iterator. This means that it supports iteration but we can not directly iterate over it. How can we then iterate over it? It’s time to learn about one more built-in function, iter. It returns an iterator object from an iterable. Here is how we can use it:
-
+好吧，这不是我们预期的。这个异常说那个str对象不是一个迭代器。对，就是这样！它是一个可迭代对象，而不是一个迭代器。这意味着它支持迭代，但我们不能直接对其进行迭代操作。那我们怎样才能对它实施迭代呢？是时候学习下另一个内置函数，iter。它将根据一个可迭代对象返回一个迭代器对象。这里是我们如何使用它：
 ```
 my_string = "Yasoob"
 my_iter = iter(my_string)
 next(my_iter)
 # Output: 'Y'
 ```
-Now that is much better. I am sure that you loved learning about generators. Do bear it in mind that you can fully grasp this concept only when you use it. Make sure that you follow this pattern and use generators whenever they make sense to you. You won’t be disappointed!
+现在好多啦。我肯定你已经爱上了学习生成器。一定要记住，想要完全掌握这个概念，你只有使用它。确保你按照这个模式，并在生成器对你有意义的任何时候都使用它。你绝对不会失望的！
