@@ -1,4 +1,4 @@
-# __slots__魔法
+# ```__slots__```魔法
 
 在Python中，每个类都有实例属性。默认情况下Python用一个字典来保存一个对象的实例属性。这非常有用，因为它允许我们在运行时去设置任意的新属性。
 
@@ -28,7 +28,7 @@ class MyClass(object):
 
 稍微备注一下，你也许需要试一下PyPy。它已经默认地做了所有这些优化。
 
-以下你可以看到一个例子，它用IPython来展示在有与没有__slots__情况下的精确内存占用，感谢 https://github.com/ianozsvald/ipython_memory_usage
+以下你可以看到一个例子，它用IPython来展示在有与没有```__slots__```情况下的精确内存占用，感谢 https://github.com/ianozsvald/ipython_memory_usage
 
 ```python
 Python 3.4.3 (default, Jun  6 2015, 13:32:34)
