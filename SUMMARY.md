@@ -22,6 +22,7 @@
 * [Ternary Operators](ternary_operators.md)
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
+* [__slots__魔法](slots_magic/README.md)
 * [Virtual Environment](virtual_environment.md)
 * [Collections](collections.md)
 * [Lambda表达式](Lambdas/README.md)
