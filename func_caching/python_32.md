@@ -14,8 +14,12 @@ def fib(n):
 >>> print([fib(n) for n in range(10)])
 # Output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 ```
-The maxsize argument tells lru_cache about how many recent return values to cache.
 
-We can easily uncache the return values as well by using:
+那个```maxsize```参数是告诉```lru_cache```，最多缓存最近多少个返回值。
 
+我们也可以轻松地对返回值清空缓存，通过这样：
+
+```python
 fib.cache_clear()
+```
+
