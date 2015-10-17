@@ -31,5 +31,5 @@
    * [列表推导式](Comprehensions/list-comprehensions.md)
    * [字典推导式](Comprehensions/dict-comprehensions.md)
    * [集合推导式](Comprehensions/set-comprehensions.md)
-* 函数缓存
+* [函数缓存](func_caching/README.md)
 
