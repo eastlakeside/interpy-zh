@@ -33,5 +33,5 @@
    * [集合推导式](Comprehensions/set-comprehensions.md)
 * [函数缓存](func_caching/README.md)
    * [Python 3.2+](func_caching/python_32.md)
-   * Python 2+
+   * [Python 2+](func_caching/python_2.md)
 
