@@ -24,5 +24,3 @@ def fibonacci(n):
 fibonacci(25)
 ```
 这里有一篇[Caktus Group的不错的文章](https://www.caktusgroup.com/blog/2015/06/08/testing-client-side-applications-django-post-mortem/)，在其中他们发现一个Django框架的由lru_cache导致的bug。读起来很有意思。一定要打开去看一下。
-
-Here is a fine article by Caktus Group in which they caught a bug in Django which occurred due to lru_cache. It’s an interesting read. Do check it out.
