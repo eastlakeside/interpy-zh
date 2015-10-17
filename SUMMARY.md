@@ -21,7 +21,7 @@
 * [set Data Structure](set_data_structure.md)
 * [Ternary Operators](ternary_operators.md)
 * [Global和Return](global_return/README.md)
-   * [多个return值](global_return/mutiple_return_values.md) 
+   * [多个return值](global_return/multiple_return_values.md) 
 * [Virtual Environment](virtual_environment.md)
 * [Collections](collections.md)
 * [Lambda表达式](Lambdas/README.md)
