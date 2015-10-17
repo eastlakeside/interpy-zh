@@ -1,7 +1,5 @@
 # Global和Return
 
-You might have encountered some functions written in python which have a return keyword in the end of the function. Do you know what it does? It is similar to return in other languages. Lets examine this little function:
-
 你也许遇到过python中一些函数在最尾部有一个return关键字。你知道它是干嘛吗？它和其他语言的return类似。我们来检查下这个小函数：
 
 ```python
@@ -13,7 +11,6 @@ print(result)
 # Output: 8
 ```
 
-The function above takes two values as input and then output their addition. We could have also done:
 
 上面这个函数将两个值作为输入，然后输出它们相加之和。我们也可以这样做：
 ```python
@@ -25,7 +22,6 @@ add(3,5)
 print(result)
 # Output: 8
 ```
-So first lets talk about the first bit of code which involves the return keyword. What that function is doing is that it is assigning the value to the variable which is calling that function which in our case is result. In most cases and you won’t need to use the global keyword. However lets examine the other bit of code as well which includes the global keyword. So what that function is doing is that it is making a global variable result. What does global mean here? Global variable means that we can access that variable outside the scope of the function as well. Let me demonstrate it with an example :
 
 那首先我们来谈谈第一段也就是包含return关键字的代码。那个函数做的，是把值赋给调用那个函数的变量（在例子中就是result变量）。大多数境况下，你并不需要使用global关键字。然而我们也来检查下另外一段也就是包含global关键字的代码。那个函数做的，是它在生成一个global（全局）变量result。global在这的意思是什么？global变量意味着我们可以在函数以外的区域都能访问这个变量。让我们通过一个例子来证明它：
 ```python
