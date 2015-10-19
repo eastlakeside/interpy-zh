@@ -4,7 +4,7 @@
 
 然而，对于有着已知属性的小类来说，它可能是个瓶颈。这个字典浪费了很多内存。Python不能在对象创建时直接分配一个固定量的内存来保存所有的属性。因此如果你创建许多对象（我指的是上百万个），它会吸掉很多内存。不过还是有一个方法来规避这个问题。这个方法需要使用```__slots__```来告诉Python不要使用字典，而且只给一个固定集合的属性分配空间。这里是一个有与没有```__slots__```的例子：
 
-Without __slots__:
+没有 ```__slots__```:
 ```python
 class MyClass(object):
     def __init__(self, name, identifier):
@@ -13,7 +13,7 @@ class MyClass(object):
         self.set_up()
     # ...
 ```
-With __slots__:
+有 ```__slots__```:
 ```python
 class MyClass(object):
     __slots__ = ['name', 'identifier']
@@ -23,6 +23,7 @@ class MyClass(object):
         self.set_up()
     # ...
 ```
+
 The second piece of code will reduce the burden on your RAM. Some people have seen almost 40 to 50% reduction in RAM usage by using this technique.
 
 On a sidenote, you might want to give PyPy a try. It does all of these optimizations by default.
