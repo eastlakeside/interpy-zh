@@ -24,11 +24,12 @@ class MyClass(object):
     # ...
 ```
 
-The second piece of code will reduce the burden on your RAM. Some people have seen almost 40 to 50% reduction in RAM usage by using this technique.
+第二段代码会为你的内存减轻负担。通过这个技巧，有些人已经在内存占用上看到几乎百分之40到50的减少。
 
-On a sidenote, you might want to give PyPy a try. It does all of these optimizations by default.
+稍微备注一下，你也许需要试一下PyPy。它已经默认地做了所有这些优化。
 
-Below you can see an example showing exact memory usage with and without __slots__ done in IPython thanks to https://github.com/ianozsvald/ipython_memory_usage
+以下你可以看到一个例子，它用IPython来展示在有与没有__slots__情况下的精确内存占用，感谢 https://github.com/ianozsvald/ipython_memory_usage
+
 ```python
 Python 3.4.3 (default, Jun  6 2015, 13:32:34)
 Type "copyright", "credits" or "license" for more information.
