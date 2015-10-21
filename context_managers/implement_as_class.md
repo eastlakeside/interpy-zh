@@ -1,6 +1,6 @@
 # 实现成类
 
-At the very least a context manager has an __enter__ and __exit__ methods defined. Let’s make our own file opening Context Manager and learn the basics.
+一个上下文管理器，起码来说，要定义一个```__enter__```和```__exit__```。让我们来构造我们自己的文件开启的上下文管理器，并学习下基础知识。
 
 class File(object):
     def __init__(self, file_name, method):
