@@ -1,7 +1,9 @@
 # type和id
 
-The type function returns the type of an object. For example:
+`type`函数返回一个对象的类型。举个例子：
 
+
+```python
 print(type(''))
 # Output: <type 'str'>
 
@@ -16,8 +18,12 @@ print(type(dict))
 
 print(type(3))
 # Output: <type 'int'>
-id returns the unique ids of various objects. For instance:
+```
 
+`id()`函数返回任意不同种类对象的唯一ID，举个例子：
+
+```python
 name = "Yasoob"
 print(id(name))
 # Output: 139972439030304
+```
