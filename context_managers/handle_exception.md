@@ -11,20 +11,18 @@ with File('demo.txt', 'w') as opened_file:
 我们来列一下，当异常发生时，with语句会采取哪些步骤。
 1. 它把异常的type,value和traceback传递给__exit__方法
 2. 它让__exit__方法来处理异常
-3. 
+3. 如果__exit__返回的是True，那么这个异常就被优雅地处理了。
+4. 如果__exit__返回的是True以外的任何东西，那么这个异常将被with语句抛出。
 
-
-It passes the type, value and traceback of the error to the __exit__ method.
-It allows the __exit__ method to handle the exception.
-If __exit__ returns True then the exception was gracefully handled.
-If anything else than True is returned by __exit__ method then the exception is raised by with statement.
-In our case the __exit__ method returns None (when no return statement is encountered then the method returns None). Therefore, with statement raises the exception.
-
+在我们的案例中，__exit__方法返回的是None(如果没有return语句那么方法会返回None)。因此，with语句抛出了那个异常。
+```python
 Traceback (most recent call last):
   File "<stdin>", line 2, in <module>
 AttributeError: 'file' object has no attribute 'undefined_function'
-Let’s try handling the exception in the __exit__ method:
+```
 
+我们尝试下在__exit__方法中处理异常：
+```python
 class File(object):
     def __init__(self, file_name, method):
         self.file_obj = open(file_name, method)
@@ -39,6 +37,8 @@ with File('demo.txt', 'w') as opened_file:
     opened_file.undefined_function()
 
 # Output: Exception has been handled
-Our __exit__ method returned True, therefore no exception was raised by the with statement.
+```
 
-This is not the only way to implement context managers. There is another way and we will be looking at it in this next section.
+我们的__exit__方法返回了True,因此没有异常会被with语句抛出。
+
+这还不是实现上下文管理器的唯一方式。还有一种方式，我们会在下一节中一起看看。
