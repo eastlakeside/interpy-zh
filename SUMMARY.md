@@ -26,6 +26,7 @@
 * [__slots__魔法](slots_magic/README.md)
 * [Virtual Environment](virtual_environment.md)
 * [Collections](collections.md)
+* 对象自省(introspection)
 * [Lambda表达式](Lambdas/README.md)
 * [一行代码](Onelines/README.md)
 * [目标Python2+3](TargetingPython2+3/README.md)
@@ -41,5 +42,4 @@
    * [实现成类](context_managers/implement_as_class.md)
    * [处理异常](context_managers/handle_exception.md)
    * [实现成生成器](context_managers/implement_as_generator.md)
-* 对象自省(introspection)
 
