@@ -15,7 +15,7 @@
    * [迭代器(Iterator)](Generators/Iterator.md)
    * [迭代(Iteration)](Generators/Iteration.md)
    * [生成器(Generators)](Generators/Generators.md)
-* [Map & Filter](Map & Filter/README.md)
+* [Map和Filter](Map & Filter/README.md)
    * [Map](Map & Filter/Map.md)
    * [Filter](Map & Filter/Filter.md)
 * [set Data Structure](set_data_structure.md)
