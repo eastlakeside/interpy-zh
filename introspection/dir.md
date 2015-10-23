@@ -17,5 +17,4 @@ dir(my_list)
 # 'remove', 'reverse', 'sort']
 ```
 
-我们的自省给了我们一个列表对象的所有方法的名字。
-Our introspection gave us the names of all the methods of a list. This can be handy when you are not able to recall a method name. If we run dir() without any argument then it returns all names in the current scope.
+我们的自省给了我们一个列表对象的所有方法的名字。当你没法回忆起一个方法的名字，这会非常有帮助。如果我们运行dir()而不传入参数，那么它会返回当前作用域的所有名字。
