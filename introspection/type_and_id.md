@@ -1,8 +1,8 @@
 # type和id
 
-
+ 
 ```type```函数返回一个对象的类型。举个例子：
-
+ 
 
 ```python
 print(type(''))
