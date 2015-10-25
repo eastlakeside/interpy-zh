@@ -16,12 +16,12 @@ for i in items:
     squared.append(i**2)
 ```
 
-Map可以让我们用一种简单而漂亮得多的方式来实现。就是这样：
+`Map`可以让我们用一种简单而漂亮得多的方式来实现。就是这样：
 ```python
 items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
 ```
-大多数时候，我们使用匿名函数(lambdas)来配合map, 所以我在上面也是这么做的。
+大多数时候，我们使用匿名函数(lambdas)来配合`map`, 所以我在上面也是这么做的。
 不仅用于一列表的输入， 我们甚至可以用于一列表的函数！
 ```python
 def multiply(x):
