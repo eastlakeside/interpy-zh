@@ -20,7 +20,7 @@
    * [Filter](Map & Filter/Filter.md)
 * [set Data Structure](set_data_structure.md)
 * [Ternary Operators](ternary_operators.md)
-* 装饰器
+* [装饰器](decorators/README.md)
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
 * [对象变动(Mutation)](Mutation/README.md)
