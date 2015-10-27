@@ -19,7 +19,7 @@ a = hi()
 print(a)
 #outputs: <function greet at 0x7f2143c01500>
 
-#这清晰地展示了`a`现在指向到hi()函数中的greet()函数
+#上面清晰地展示了`a`现在指向到hi()函数中的greet()函数
 #现在试试这个
 
 print(a())
