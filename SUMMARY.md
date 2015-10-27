@@ -22,7 +22,7 @@
 * [Ternary Operators](ternary_operators.md)
 * [装饰器](decorators/README.md)
    * [一切皆对象](decorators/everything_is_object.md)
-   * 在函数中定义函数
+   * [在函数中定义函数](decorators/def_func_in_func.md)
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
 * [对象变动(Mutation)](Mutation/README.md)
