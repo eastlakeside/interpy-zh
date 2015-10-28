@@ -12,4 +12,3 @@ doSomethingBeforeHi(hi)
 #        hi yasoob!
 ```
 现在你已经具备所有必需知识，来进一步学习装饰器真正是什么了。装饰器让你在一个函数的前后去执行代码。
-Now you have all the required knowledge to learn what decorators really are. Decorators let you execute code before and after a function.
