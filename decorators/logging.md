@@ -21,7 +21,5 @@ result = addition_func(4)
 # Output: addition_func was called
 ```
 
-我敢肯定已经在思考装饰器的一个其他聪明用法了。
-
-I am sure you are already thinking about some clever uses of decorators.
+我敢肯定你已经在思考装饰器的一个其他聪明用法了。
 
