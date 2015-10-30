@@ -28,7 +28,7 @@
    * [你的第一个装饰器](decorators/your_first_decorator.md)
        * [使用场景](decorators/use_cases.md)
        * [授权](decorators/auth.md)
-       * 日志
+       * [日志](decorators/logging.md)
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
 * [对象变动(Mutation)](Mutation/README.md)
