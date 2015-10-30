@@ -30,6 +30,7 @@
        * [授权](decorators/auth.md)
        * [日志](decorators/logging.md)
    * [带参数的装饰器](decorators/deco_with_args.md)
+       * 在函数中嵌入装饰器
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
 * [对象变动(Mutation)](Mutation/README.md)
