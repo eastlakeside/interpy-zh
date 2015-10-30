@@ -44,6 +44,7 @@
    * [inspect模块](introspection/inspect.md)
 * [Lambda表达式](Lambdas/README.md)
 * [一行代码](Onelines/README.md)
+* For - Else
 * [目标Python2+3](TargetingPython2+3/README.md)
 * [协程](Coroutines/README.md)
 * [推导式(Comprehension)](Comprehensions/README.md)
@@ -57,5 +58,4 @@
    * [实现成类](context_managers/implement_as_class.md)
    * [处理异常](context_managers/handle_exception.md)
    * [实现成生成器](context_managers/implement_as_generator.md)
-* For - Else
 
