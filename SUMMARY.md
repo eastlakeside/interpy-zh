@@ -26,6 +26,7 @@
    * [从函数中返回函数](decorators/return_func_in_func.md)
    * [将函数作为参数传给另一个函数](decorators/func_as_argument.md)
    * [你的第一个装饰器](decorators/your_first_decorator.md)
+       * 使用场景
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
 * [对象变动(Mutation)](Mutation/README.md)
