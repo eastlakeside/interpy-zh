@@ -1,3 +1,3 @@
 # 使用场景
 
-Now let’s take a look at the areas where decorators really shine and their usage makes something really easy to manage.
+现在我们来看一下装饰器在哪些领域特别亮眼，以及对它的使用可以让一些事情管理起来真的很简单。
