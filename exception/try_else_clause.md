@@ -1,7 +1,7 @@
 # try/else从句
 
-Often times we might want some code to run if no exception occurs. This can easily be achieved by using an else clause. One might ask: why, if you only want some code to run if no exception occurs, wouldn’t you simply put that code inside the try? The answer is that then any exceptions in that code will be caught by the try, and you might not want that. Most people don’t use it and honestly I have myself not used it widely. Here is an example:
-
+我们常常想让一些代码在没有异常触发的情况下执行。这可以很轻松地通过使用一个else从句来达到。有人也许问了：为什么，如果你只是想让一些代码如果没有异常触发的情况下执行，你为啥不直接把代码放在try里面呢？回答是，那样的话这段代码中的任意异常都还是会被try捕获，而你并不一定想要那样。大多数人并不使用它，而且坦率地讲我自己也没有大范围使用。这里是个例子：
+```python
 try:
     print('I am sure no exception is going to occur!')
 except Exception:
@@ -17,4 +17,5 @@ finally:
 # Output: I am sure no exception is going to occur!
 # This would only run if no exception occurs.
 # This would be printed in every case.
-The else clause would only run if no exception occurs and it would run before the finally clause.
+```
+else从句只会在没有异常的情况下执行，而且它会在finally语句之前执行。
