@@ -52,6 +52,7 @@
    * [列表推导式](Comprehensions/list-comprehensions.md)
    * [字典推导式](Comprehensions/dict-comprehensions.md)
    * [集合推导式](Comprehensions/set-comprehensions.md)
+* 异常
 * [函数缓存](func_caching/README.md)
    * [Python 3.2+](func_caching/python_32.md)
    * [Python 2+](func_caching/python_2.md)
@@ -59,5 +60,4 @@
    * [实现成类](context_managers/implement_as_class.md)
    * [处理异常](context_managers/handle_exception.md)
    * [实现成生成器](context_managers/implement_as_generator.md)
-* 异常
 
