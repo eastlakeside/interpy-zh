@@ -8,8 +8,9 @@ try:
 except (IOError, EOFError) as e:
     print("An error occurred. {}".format(e.args[-1]))
 ```
-Another method is to handle individual exceptions in separate except blocks. We can have as many except blocks as we want. Here is an example:
 
+另外一种方式是对每个单独的异常在单独的except语句块中处理。我们想要多少个except语句块都可以。这里是个例子：
+```python
 try:
     file = open('test.txt', 'rb')
 except EOFError as e:
@@ -18,12 +19,15 @@ except EOFError as e:
 except IOError as e:
     print("An error occurred.")
     raise e
-This way if the exception is not handled by the first except block then it may be handled by a following block, or none at all. Now the last method involves trapping ALL exceptions:
+```
 
+上面这个方式中，如果异常没有被第一个except语句块处理，那么它也许被下一个语句块处理，或者根本不会被处理。现在，最后一种方式会捕获**所有**异常：
+```python
 try:
     file = open('test.txt', 'rb')
 except Exception:
     # Some logging if you want
     raise
-This can be helpful when you have no idea about the exceptions which may be thrown by your program.
+```
 
+当你不知道你的程序会抛出什么样的异常时，上面的方式可能非常有帮助。
