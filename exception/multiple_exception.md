@@ -1,11 +1,13 @@
 # 处理多个异常
 
-We can use three methods to handle multiple exceptions. The first one involves putting all the exceptions which are likely to occur in a tuple. Like so:
+我们可以使用三个方法来处理多个异常。第一个方法需要把所有可能发生的异常放到一个元组里。像这样：
 
+```python
 try:
     file = open('test.txt', 'rb')
 except (IOError, EOFError) as e:
     print("An error occurred. {}".format(e.args[-1]))
+```
 Another method is to handle individual exceptions in separate except blocks. We can have as many except blocks as we want. Here is an example:
 
 try:
