@@ -1,13 +1,14 @@
 # 异常
 
-异常处理是一种艺术，一旦你掌握，会授予你无穷的力量。
+异常处理是一种艺术，一旦你掌握，会授予你无穷的力量。我将要给你展示我们能处理异常的一些方式。
 
-Exception handling is an art which once you master grants you immense powers. I am going to show you some of the ways in which we can handle exceptions.
+最基本的术语里我们知道了try/except从句。可能触发异常产生的代码会放到try语句块里，而处理异常的代码会在except语句块里实现。这是一个简单的例子：
 
-In basic terminology we are aware of try/except clause. The code which can cause an exception to occur is put in the try block and the handling of the exception is implemented in the except block. Here is a simple example:
-
+```python
 try:
     file = open('test.txt', 'rb')
 except IOError as e:
     print('An IOError occurred. {}'.format(e.args[-1]))
-In the above example we are handling only the IOError exception. What most beginners do not know is that we can handle multiple exceptions.
+```
+
+上面的例子里，我们仅仅在处理一个IOError的异常。大部分初学者还不知道的是，我们可以处理多个异常。
