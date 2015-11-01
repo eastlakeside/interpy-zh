@@ -1,7 +1,8 @@
 # finally从句
 
-We wrap our main code in the try clause. After that we wrap some code in an except clause which gets executed if an exception occurs in the code wrapped in the try clause. In this example we will use a third clause as well which is the finally clause. The code which is wrapped in the finally clause will run whether or not an exception occurred. It might be used to perform clean-up after a script. Here is a simple example:
+我们把我们的主程序代码包裹进了try从句。然后我们把一些代码包裹进一个except从句，它会在一个try从句中的代码触发异常时执行。在这个例子中，我们还会使用第三个从句，那就是finally从句。包裹到finally从句中的代码不管异常是否触发都将会被执行。这可以被用来在脚本执行后做清理工作。这里是个简单的例子：
 
+```python
 try:
     file = open('test.txt', 'rb')
 except IOError as e:
@@ -11,3 +12,4 @@ finally:
 
 # Output: An IOError occurred. No such file or directory
 # This would be printed whether or not an exception occurred!
+```
