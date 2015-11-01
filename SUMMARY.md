@@ -53,6 +53,7 @@
    * [字典推导式](Comprehensions/dict-comprehensions.md)
    * [集合推导式](Comprehensions/set-comprehensions.md)
 * [异常](exception/README.md)
+   * 处理多个异常
 * [函数缓存](func_caching/README.md)
    * [Python 3.2+](func_caching/python_32.md)
    * [Python 2+](func_caching/python_2.md)
