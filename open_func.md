@@ -1,10 +1,11 @@
 # `open`函数
 
-open opens a file. Pretty simple, eh? Most of the time, we see it being used like this:
-
+[open](http://docs.python.org/dev/library/functions.html#open) 可以打开一个文件。超级简单吧？大多数时候，我们看到它这样被使用：
+```python
 f = open('photo.jpg', 'r+')
 jpgdata = f.read()
 f.close()
+```
 The reason I am writing this article is that most of the time, I see open used like this. There are three errors in the above code. Can you spot them all? If not, read on. By the end of this article, you’ll know what’s wrong in the above code, and, more importantly, be able to avoid these mistakes in your own code. Let’s start with the basics:
 
 The return value from open is a file handle, given out from the operating system to your Python application. You will want to return this file handle once you’re finished with the file, if only so that your application won’t reach the limit of the number of open file handles it can have at once.
