@@ -46,7 +46,7 @@
 * [一行代码](Onelines/README.md)
 * [For - Else](for_else/README.md)
    * [else语句](for_else/else_clause.md)
-* open函数
+* [open函数](open_func.md)
 * [目标Python2+3](TargetingPython2+3/README.md)
 * [协程](Coroutines/README.md)
 * [推导式(Comprehension)](Comprehensions/README.md)
