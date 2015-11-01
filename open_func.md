@@ -9,23 +9,23 @@ f.close()
 
 我现在写这篇文章的原因，是大部分时间我看到open被这样使用。有**三个**错误存在于上面的代码中。你能把它们全指出来吗？如不能，请读下去。在这篇文章的结尾，你会知道上面的代码错在哪里，而且，更重要的是，你能在自己的代码里避免这些错误。现在我们从基础开始：
 
-open的返回值是一个文件句柄，从操作系传给你的Python程序。一旦你处理完文件，你会想要归还这个文件句柄，只有这样你的程序不会超出一次能打开的文件句柄的数量上限。
+open的返回值是一个文件句柄，从操作系统托付给你的Python程序。一旦你处理完文件，你会想要归还这个文件句柄，只有这样你的程序不会超出一次能打开的文件句柄的数量上限。
 
-
-
-The return value from open is a file handle, given out from the operating system to your Python application. You will want to return this file handle once you’re finished with the file, if only so that your application won’t reach the limit of the number of open file handles it can have at once.
-
-Explicitly calling close closes the file handle, but only if the read was successful. If there is any error just after f = open(...), f.close() will not be called (depending on the Python interpreter, the file handle may still be returned, but that’s another story). To make sure that the file gets closed whether an exception occurs or not, pack it into a with statement:
-
+显式地调用close关闭了这个文件句柄，但前提是只有在read成功的情况下。如果有任意异常正好在f = open(...)之后产生，f.close()将不会被调用(取决于Python解释器的做法，文件句柄可能还是会被归还，但那是另外的话题了)。为了确保不管异常是否触发，文件都能关闭，将其包裹成一个with语句:
+```
 with open('photo.jpg', 'r+') as f:
     jpgdata = f.read()
-The first argument of open is the filename. The second one (the mode) determines how the file gets opened.
+```
 
-If you want to read the file, pass in r
-If you want to read and write the file, pass in r+
-If you want to overwrite the file, pass in w
-If you want to append to the file, pass in a
-While there are a couple of other valid mode strings, chances are you won’t ever use them. The mode matters not only because it changes the behavior, but also because it may result in permission errors. For example, if we were to open a jpg-file in a write-protected directory, open(.., 'r+') would fail. The mode can contain one further character; we can open the file in binary (you’ll get a string of bytes) or text mode (a string of characters).
+open的第一个参数是文件名。第二个(mode 打开模式)决定了这个文件如何被打开。
+
+- 如果你想读取文件，传入r
+- 如果你想读取并写入文件，传入r+
+- 如果你想覆盖写入文件，传入w
+- 如果你想在文件末尾附加内容，传入a
+
+虽然有若干个其他的有效的mode字符串，但有可能你将永远不会使用它们。mode很重要，不仅因为它改变了行为，而且它可能导致权限错误。举个例子，我们要是在一个写保护的目录里打开一个jpg文件， open(.., 'r+')就失败了。mode可能包含一个扩展字符；我们还可以以二进制方式打开文件(你将得到字节串)或者文本模式(字符串)
+
 
 In general, if the format is written by humans, it tends to be text mode. jpg image files are not generally written by humans (and are indeed not readable by humans), and you should therefore open them in binary mode by adding a b to the mode string (if you’re following the opening example, the correct mode would be rb). If you open something in text mode (i.e. add a t, or nothing apart from r/r+/w/a), you must also know which encoding to use. For a computer, all files are just bytes, not characters.
 
