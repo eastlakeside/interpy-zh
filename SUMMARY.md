@@ -55,6 +55,7 @@
 * [异常](exception/README.md)
    * [处理多个异常](exception/multiple_exception.md)
        * [finally从句](exception/finally_clause.md)
+       * try/else从句
 * [函数缓存](func_caching/README.md)
    * [Python 3.2+](func_caching/python_32.md)
    * [Python 2+](func_caching/python_2.md)
