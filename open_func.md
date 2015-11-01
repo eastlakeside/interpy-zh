@@ -6,7 +6,12 @@ f = open('photo.jpg', 'r+')
 jpgdata = f.read()
 f.close()
 ```
-The reason I am writing this article is that most of the time, I see open used like this. There are three errors in the above code. Can you spot them all? If not, read on. By the end of this article, you’ll know what’s wrong in the above code, and, more importantly, be able to avoid these mistakes in your own code. Let’s start with the basics:
+
+我现在写这篇文章的原因，是大部分时间我看到open被这样使用。有**三个**错误存在于上面的代码中。你能把它们全指出来吗？如不能，请读下去。在这篇文章的结尾，你会知道上面的代码错在哪里，而且，更重要的是，你能在自己的代码里避免这些错误。现在我们从基础开始：
+
+open的返回值是一个文件句柄，从操作系传给你的Python程序。一旦你处理完文件，你会想要归还这个文件句柄，只有这样你的程序不会超出一次能打开的文件句柄的数量上限。
+
+
 
 The return value from open is a file handle, given out from the operating system to your Python application. You will want to return this file handle once you’re finished with the file, if only so that your application won’t reach the limit of the number of open file handles it can have at once.
 
