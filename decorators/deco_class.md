@@ -14,13 +14,13 @@ class logit(object):
         print(log_string)
         # 打开logfile并写入
         with open(self.logfile, 'a') as opened_file:
-            # 现在将日志打到指定的
+            # 现在将日志打到指定的文件
             opened_file.write(log_string + '\n')
-        # Now, send a notification
+        # 现在，发送一个通知
         self.notify()
 
     def notify(self):
-        # logit only logs, no more
+        # logit只打日志，不做别的
         pass
 ```
 
@@ -37,15 +37,14 @@ def myfunc1():
 ```python
 class email_logit(logit):
     '''
-    A logit implementation for sending emails to admins
-    when the function is called.
+    一个logit的实现版本，可以在函数调用时发送email给管理员
     '''
     def __init__(self, email='admin@myproject.com', *args, **kwargs):
         self.email = email
         super(logit, self).__init__(*args, **kwargs)
 
     def notify(self):
-        # Send an email to self.email
+        # 发送一封email到self.email
         # Will not be implemented here
         pass
 ```
