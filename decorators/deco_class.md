@@ -45,7 +45,7 @@ class email_logit(logit):
 
     def notify(self):
         # 发送一封email到self.email
-        # Will not be implemented here
+        # 这里就不做实现了
         pass
 ```
 从现在起，@email_logit将会和@logit产生同样的效果，但是在打日志的基础上，还会多发送一封邮件给管理员。
