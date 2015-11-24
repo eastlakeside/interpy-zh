@@ -32,7 +32,7 @@ def myfunc1():
     pass
 ```
 
-现在，我们给logit创建子类，来添加email的功能(虽然email这个话题不会在这里展开)。
+现在，我们给```logit```创建子类，来添加email的功能(虽然email这个话题不会在这里展开)。
 
 ```python
 class email_logit(logit):
