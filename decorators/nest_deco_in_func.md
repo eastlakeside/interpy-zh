@@ -13,7 +13,7 @@ def logit(logfile='out.log'):
             print(log_string)
             # 打开logfile，并写入内容
             with open(logfile, 'a') as opened_file:
-                # Now we log to the specified logfile
+                # 现在将日志打到指定的logfile
                 opened_file.write(log_string + '\n')
         return wrapped_function
     return logging_decorator
@@ -24,7 +24,7 @@ def myfunc1():
 
 myfunc1()
 # Output: myfunc1 was called
-# A file called out.log now exists, with the above string
+# 现在一个叫做 out.log 的文件出现了，里面的内容就是上面的字符串
 
 @logit(logfile='func2.log')
 def myfunc2():
