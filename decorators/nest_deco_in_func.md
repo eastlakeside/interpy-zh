@@ -11,7 +11,7 @@ def logit(logfile='out.log'):
         def wrapped_function(*args, **kwargs):
             log_string = func.__name__ + " was called"
             print(log_string)
-            # Open the logfile and append
+            # 打开logfile，并写入内容
             with open(logfile, 'a') as opened_file:
                 # Now we log to the specified logfile
                 opened_file.write(log_string + '\n')
