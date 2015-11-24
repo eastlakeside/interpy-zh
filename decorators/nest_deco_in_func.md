@@ -35,5 +35,5 @@ myfunc2():
 
 myfunc2()
 # Output: myfunc2 was called
-# A file called func2.log now exists, with the above string
+# 现在一个叫做 func2.log 的文件出现了，里面的内容就是上面的字符串
 ```
