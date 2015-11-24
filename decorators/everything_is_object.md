@@ -1,6 +1,7 @@
 # 一切皆对象
 
-First of all let’s understand functions in python:
+首先我们来理解下Python中的函数
+
 ```python
 def hi(name="yasoob"):
     return "hi " + name
