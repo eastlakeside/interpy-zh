@@ -14,7 +14,7 @@ class logit(object):
         print(log_string)
         # 打开logfile并写入
         with open(self.logfile, 'a') as opened_file:
-            # Now we log to the specified logfile
+            # 现在将日志打到指定的
             opened_file.write(log_string + '\n')
         # Now, send a notification
         self.notify()
