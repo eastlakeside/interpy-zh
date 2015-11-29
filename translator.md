@@ -12,4 +12,6 @@
 - one more thing: 大家最好是每人切一个分支出来进行编辑, 然后再 merge request.
 
 
-## 译者suqi(苏琦) 
+## 译者suqi(苏琦)感言
+
+
