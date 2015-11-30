@@ -4,12 +4,12 @@
 > github: https://github.com/eastlakeside/interpy-zh
 
 ### 写作方式
-- 大家可以用 gitbook 客户端来写书, 然后右上角一键 sync 到 gitbook+github, 大家可以测试一下
-- 同时也可以用自己喜欢的 markdown(比如 mou)来写,然后提交到 gitbook 的仓库或者 github的仓库, 都可以
+- 推荐使用 gitbook 客户端来翻译, 使用右上角一键 sync 到 gitbook+github。
+- 或者使用自己喜欢的 markdown(比如 mou)来写,然后提交到 gitbook 的仓库或者 github的仓库
 
 ### 协作方式
 - 使用 trello 来认领章节任务
-- one more thing: 大家最好是每人切一个分支出来进行编辑, 然后再 merge request.
+- one more thing: 大家最好是每人切一个分支出来进行编辑, 然后再 merge request
 
 
 ## 译者suqi(苏琦)感言
