@@ -4,3 +4,8 @@
 
 Python，做个"老练"、"小清新"的开发语言，已受到广大才男俊女的喜爱。我们也从最基础的Python粉，经过时间的吹残慢慢的变成了Python老鬼。因此一开始 @苏琦 提出要翻译点什么的时候，我还是挺兴奋的，团队一起协作，不单可以磨练自己，也能加强团队之间的协作。为此在经过短暂的讨论后，翻译的内容就定为：[IntermediatePython](https://github.com/yasoob/intermediatePython)。
 
+IntermediatePython这本书具有如下几个优点：
+
+1. 简单
+2. 易读
+3. 易译
