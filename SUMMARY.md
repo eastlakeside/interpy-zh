@@ -3,7 +3,6 @@
 * [简介](README.md)
    * [作者前言](author.md)
    * [译者前言](translator.md)
-   * [前言](Introduction.md)
 * [*args 和 **kwargs](args_kwargs/README.md)
    * [*args 的用法](args_kwargs/Usage_args.md)
    * [**kwargs 的用法](args_kwargs/Usage_kwargs.md)
