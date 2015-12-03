@@ -3,7 +3,7 @@
 我们还没有谈到```__exit__```方法的这三个参数：```type```, ```value```和```traceback```。在第4步和第6步之间，如果发生异常，Python会将异常的```type```,```value```和```traceback```传递到```__exit__```方法。它让__exit__方法来决定如何关闭文件以及是否需要其他步骤。在我们的案例中，我们并没有注意它们。
 
 那如果我们的文件对象抛出一个异常呢？万一我们尝试访问文件对象的一个不支持的方法。举个例子：
-```
+```python
 with File('demo.txt', 'w') as opened_file:
     opened_file.undefined_function('Hola!')
 ```
