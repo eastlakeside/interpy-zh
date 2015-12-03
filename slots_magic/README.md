@@ -30,7 +30,7 @@ class MyClass(object):
 
 以下你可以看到一个例子，它用IPython来展示在有与没有```__slots__```情况下的精确内存占用，感谢 https://github.com/ianozsvald/ipython_memory_usage
 
-```
+```python
 Python 3.4.3 (default, Jun  6 2015, 13:32:34)
 Type "copyright", "credits" or "license" for more information.
 
