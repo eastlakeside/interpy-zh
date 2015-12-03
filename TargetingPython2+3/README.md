@@ -11,14 +11,14 @@ __Future模块导入__
 第一步也是最重要的一步就是导入__future__模块。它可以帮你在Python2中导入Python3的功能。这有一组例子：
 
 上下文管理器是Python2.6+引入的新特性，如果你想在Python2.5中使用它可以这样做：
-```
+```python
 from __future__ import with_statement
 
 ```
 
 在Python3中print已经变为一个函数。如果你想在Python2中使用它可以通过__future__导入：
 
-```
+```python
 print
 # Output:
 
@@ -32,7 +32,7 @@ __模块重命名__
 
 首先，告诉我你是如何在你的脚本中导入模块的。大多时候我们会这样做：
 
-```
+```python
 import foo 
 # or
 from foo import bar
@@ -41,14 +41,14 @@ from foo import bar
 
 你知道么，其实你也可以这样做：
 
-```
+```python
 import foo as foo
 
 ```
 
 这样做可以起到和上面代码同样的功能，但最重要的是它能让你的脚本同时兼容Python2和Python3。现在我们来看下面的代码：
 
-```
+```python
 try:
     import urllib.request as urllib_request  # for Python 3
 except ImportError:
@@ -64,14 +64,14 @@ __过期的Python2内置功能__
 
 另一个需要了解的事情就是Python2中有12个内置功能在Python3中已经被移除了。要确保在Python2代码中不要出现这些功能来保证对Python3的兼容。这有一个强制让你放弃12内置功能的方法：
 
-```
+```python
 from future.builtins.disabled import *
 
 ```
 
 现在，只要你尝试在Python3中使用这些被遗弃的模块时，就会抛出一个NameError异常如下：
 
-```
+```python
 m future.builtins.disabled import *
 
 apply()
