@@ -15,13 +15,13 @@
 
 要安装它，只需要在命令行中输入以下命令：
 
-```
+```sh
 $ pip install virtualenv
 ```
 
 最重要的命令是：
 
-```
+```sh
 $ virtualenv myproject
 $ source bin/activate
 ```
@@ -32,12 +32,12 @@ $ source bin/activate
 
 如果你想让你的virtualenv使用系统全局模块，请使用```--system-site-packages```参数创建你的virtualenv，例如：
 
-```
+```sh
 virtualenv --system-site-packages mycoolproject
 ```
 使用以下命令可以退出这个virtualenv:
 
-```
+```sh
 $ deactivate
 ```
 运行之后将恢复使用你系统全局的Python模块。
