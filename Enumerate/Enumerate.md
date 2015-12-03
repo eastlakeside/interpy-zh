@@ -11,7 +11,7 @@ for counter, value in enumerate(some_list):
 ```
 不只如此，枚举也接受一些可选参数，这使它更有用。
 This is not it. enumerate also accepts some optional arguments which make it even more useful.
-```
+```python
 my_list = ['apple', 'banana', 'grapes', 'pear']
 for c, value in enumerate(my_list, 1):
     print(c, value)
