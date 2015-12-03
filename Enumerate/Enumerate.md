@@ -5,7 +5,7 @@
 
 下面是一个例子：
 
-```
+```python
 for counter, value in enumerate(some_list):
     print(counter, value)
 ```
@@ -27,7 +27,7 @@ The optional argument allows us to tell enumerate from where to start the index.
 
 例如：
 
-```
+```python
 my_list = ['apple', 'banana', 'grapes', 'pear']
 counter_list = list(enumerate(my_list, 1))
 print(counter_list)
