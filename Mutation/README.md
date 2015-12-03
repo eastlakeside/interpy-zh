@@ -64,7 +64,7 @@ add_to(3)
 ```
 啊哈！这次又是列表的可变性将我们伤害。在Python中当函数定义时，默认参数只会运算一次，而不是每次被调用时都被重新运算。你应该永远不要定义可变类型的默认参数，除非你知道你正在做什么。你应该像这样做：
 
-```
+```python
 def add_to(element, target=None):
     if target is None:
         target = []
