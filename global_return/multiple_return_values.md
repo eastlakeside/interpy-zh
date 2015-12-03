@@ -34,7 +34,7 @@ print(profile_data[1])
 # Output: 30
 ```
 或者按照更常见的管理：
-```
+```python
 def profile():
     name = "Danny"
     age = 30
