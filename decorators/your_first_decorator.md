@@ -49,7 +49,7 @@ a_function_requiring_decoration = a_new_decorator(a_function_requiring_decoratio
 
 希望你现在有了对于Python众装饰器如何工作的一个基本理解。现在我们的代码有一个问题。如果我们运行：
 
-```
+```python
 print(a_function_requiring_decoration.__name__)
 # Output: wrapTheFunction
 ```
