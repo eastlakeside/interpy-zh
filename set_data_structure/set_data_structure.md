@@ -1,7 +1,7 @@
 # set(集合)数据结构
 set(集合)是一个非常有用的数据结构。它与列表(list)的区别主要是set不包含重复的数据。这在很多情况下非常有用。例如你可能想去除列表中的重复数据，你有两个选择，第一个使用```for```循环来遍历列表，就像这样：
 
-```
+```python
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 
 duplicates = []
@@ -15,7 +15,7 @@ print(duplicates)
 ### 输出: ['b', 'n']
 但还有一种更简单更优雅的解决方案，使用```集合(sets)```，你可以这样做：
 
-```
+```python
 some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
 duplicates = set([x for x in some_list if some_list.count(x) > 1])
 print(duplicates)
@@ -27,7 +27,7 @@ print(duplicates)
 
 你可以对比两个集合的交集（两个集合中都有的数据），如下：
 
-```
+```python
 valid = set(['yellow', 'red', 'blue', 'green', 'black'])
 input_set = set(['red', 'brown'])
 print(input_set.intersection(valid))
@@ -38,7 +38,7 @@ print(input_set.intersection(valid))
 
 你可以用差异(difference)找出无效的数据，相当于用一个集合减去另一个集合的数据，例如：
 
-```
+```python
 valid = set(['yellow', 'red', 'blue', 'green', 'black'])
 input_set = set(['red', 'brown'])
 print(input_set.difference(valid))
@@ -46,7 +46,7 @@ print(input_set.difference(valid))
 ### 输出: set(['brown'])
 你也可以用符号来创建集合，如：
 
-```
+```python
 a_set = {'red', 'blue', 'green'}
 print(type(a_set))
 ```
