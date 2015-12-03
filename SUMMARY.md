@@ -2,7 +2,7 @@
 
 * [简介](README.md)
    * [译者序言](Introduction.md)
-   * [译者感言](translator.md)
+   * [译后感](translator.md)
    * [作者前言](author.md)
 * [*args 和 **kwargs](args_kwargs/README.md)
    * [*args 的用法](args_kwargs/Usage_args.md)
