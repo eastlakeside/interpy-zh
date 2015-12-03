@@ -5,7 +5,7 @@ __简易Web Server__
 
 你是否想过通过网络快速共享文件？好消息，Python为你提供了这样的功能。进入到你要共享文件的目录下并在命令行中运行下面的代码：
 
-```
+```sh
     # Python 2
     python -m SimpleHTTPServer
 
