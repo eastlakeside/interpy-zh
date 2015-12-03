@@ -5,14 +5,14 @@
 
 伪代码:
 
-```
+```python
 #返回真 如果 条件为真 否则 返回假
 condition_is_true if condition else condition_is_false
 ```
 
 例子:
 
-```
+```python
 is_fat = True
 state = "fat" if is_fat else "not fat"
 ```
@@ -23,14 +23,14 @@ state = "fat" if is_fat else "not fat"
 
 伪代码:
 
-```
+```python
 #(返回假，返回真)[真或假]
 (if_test_is_false, if_test_is_true)[test]
 ```
 
 例子:
 
-```
+```python
 fat = True
 fitness = ("skinny", "fat")[fat]
 print("Ali is ", fitness)
@@ -44,7 +44,7 @@ print("Ali is ", fitness)
 
 例如:
 
-```
+```python
 condition = True
 print(2 if condition else 1/0)
 #输出: 2
