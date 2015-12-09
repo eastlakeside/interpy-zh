@@ -28,6 +28,7 @@ print(result)
 那个函数生成了一个```global```（全局）变量result。
 
 `global`在这的意思是什么？```global```变量意味着我们可以在函数以外的区域都能访问这个变量。让我们通过一个例子来证明它：
+
 ```python
 # first without the global variable
 def add(value1, value2):
