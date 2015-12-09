@@ -1,6 +1,6 @@
 # Global和Return
 
-你也许遇到过python中一些函数在最尾部有一个return关键字。你知道它是干嘛吗？它和其他语言的return类似。我们来检查下这个小函数：
+你也许遇到过, python中一些函数在最尾部有一个```return```关键字。你知道它是干嘛吗？它和其他语言的```return```类似。我们来检查下这个小函数：
 
 ```python
 def add(value1, value2):
@@ -23,7 +23,11 @@ print(result)
 # Output: 8
 ```
 
-那首先我们来谈谈第一段也就是包含return关键字的代码。那个函数做的，是把值赋给调用那个函数的变量（在例子中就是result变量）。大多数境况下，你并不需要使用global关键字。然而我们也来检查下另外一段也就是包含global关键字的代码。那个函数做的，是它在生成一个global（全局）变量result。global在这的意思是什么？global变量意味着我们可以在函数以外的区域都能访问这个变量。让我们通过一个例子来证明它：
+那首先我们来谈谈第一段也就是包含```return```关键字的代码。那个函数把值赋给了调用它的变量（也就是例子中的result变量）。  
+大多数境况下，你并不需要使用```global```关键字。然而我们也来检查下另外一段也就是包含```global```关键字的代码。
+那个函数生成了一个```global```（全局）变量result。
+
+`global`在这的意思是什么？```global```变量意味着我们可以在函数以外的区域都能访问这个变量。让我们通过一个例子来证明它：
 ```python
 # first without the global variable
 def add(value1, value2):
