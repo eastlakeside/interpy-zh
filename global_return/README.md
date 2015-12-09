@@ -30,7 +30,7 @@ print(result)
 `global`在这的意思是什么？```global```变量意味着我们可以在函数以外的区域都能访问这个变量。让我们通过一个例子来证明它：
 
 ```python
-# first without the global variable
+# 首先，是没有使用global变量
 def add(value1, value2):
     result = value1 + value2
 
@@ -38,7 +38,7 @@ add(2, 4)
 print(result)
 
 # Oh 糟了，我们遇到异常了。为什么会这样？
-# python解释器正在告诉我们说没有一个叫result的变量。
+# python解释器报错说没有一个叫result的变量。
 # 这是因为result变量只能在创建它的函数内部才允许访问，除非它是全局的(global)。
 Traceback (most recent call last):
   File "", line 1, in
@@ -55,4 +55,4 @@ print(result)
 6
 ```
 
-如我们所愿，在第二次运行时没有异常了。在实际的编程时，你应该试着避开global关键字，它只会让生活变得艰难，因为它引入了多余的变量到全局作用域了。
+如我们所愿，在第二次运行时没有异常了。在实际的编程时，你应该试着避开```global```关键字，它只会让生活变得艰难，因为它引入了多余的变量到全局作用域了。
