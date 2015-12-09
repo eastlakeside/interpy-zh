@@ -1,6 +1,6 @@
 # Python 3.2及以后版本
 
-我们来实现一个斐波那契计算器，并使用lru_cache。
+我们来实现一个斐波那契计算器，并使用```lru_cache```。
 
 ```python
 from functools import lru_cache
