@@ -1,4 +1,4 @@
-# 收集器(```Collections```)
+# 容器(```Collections```)
 
 Python附带一个模块，它包含许多容器数据类型，名字叫作```collections```。我们将讨论它的作用和用法。
 
