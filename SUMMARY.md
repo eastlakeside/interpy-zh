@@ -36,7 +36,7 @@
    * [多个return值](global_return/multiple_return_values.md)
 * [对象变动(Mutation)](Mutation/README.md)
 * [__slots__魔法](slots_magic/README.md)
-* [Virtual Environment](virtual_environment/virtual_environment.md)
+* [虚拟环境](virtual_environment/virtual_environment.md)
 * [Collections](collections/collections.md)
 * [Enumerate](Enumerate/Enumerate.md)
 * [对象自省](introspection/README.md)
