@@ -64,5 +64,5 @@
 * [上下文管理器](context_managers/README.md)
    * [实现成类](context_managers/implement_as_class.md)
    * [处理异常](context_managers/handle_exception.md)
-   * [实现成生成器](context_managers/implement_as_generator.md)
+   * [基于生成器的实现](context_managers/implement_as_generator.md)
 
