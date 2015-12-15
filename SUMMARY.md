@@ -19,7 +19,7 @@
    * [Map](Map & Filter/Map.md)
    * [Filter](Map & Filter/Filter.md)
 * [set 数据结构](set_data_structure/set_data_structure.md)
-* [Ternary Operators](ternary_operators/ternary_operators.md)
+* [三元操作符](ternary_operators/ternary_operators.md)
 * [装饰器](decorators/README.md)
    * [一切皆对象](decorators/everything_is_object.md)
    * [在函数中定义函数](decorators/def_func_in_func.md)
