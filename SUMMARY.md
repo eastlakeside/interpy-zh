@@ -51,7 +51,7 @@
    * [处理多个异常](exception/multiple_exception.md)
        * [finally从句](exception/finally_clause.md)
        * [try/else从句](exception/try_else_clause.md)
-* [lambda匿名函数](Lambdas/README.md)
+* [lambda表达式](Lambdas/README.md)
 * [一行代码](Onelines/README.md)
 * [For - Else](for_else/README.md)
    * [else语句](for_else/else_clause.md)
