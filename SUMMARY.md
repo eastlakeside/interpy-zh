@@ -52,7 +52,7 @@
        * [finally从句](exception/finally_clause.md)
        * [try/else从句](exception/try_else_clause.md)
 * [lambda表达式](Lambdas/README.md)
-* [一行代码](Onelines/README.md)
+* [一行式](Onelines/README.md)
 * [For - Else](for_else/README.md)
    * [else语句](for_else/else_clause.md)
 * [open函数](open_func/open_func.md)
