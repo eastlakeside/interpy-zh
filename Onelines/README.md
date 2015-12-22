@@ -28,17 +28,26 @@ __漂亮的打印__
 ```sh
     cat file.json | python -m json.tool
 ```
+
+**脚本性能分析**
+这可能在定位你的脚本中的性能瓶颈时，会非常奏效：
+
+```sh
+    python -m cProfile my_script.py
+```
+备注：```cProfile```是一个比```profile```更快的实现，因为它是用c写的
+
 __CSV转换为json__
 
 在命令行执行这条指令
 ```sh
     python -c "import csv,json;print json.dumps(list(csv.reader(open('csv_file.csv'))))"
 ```
-确保更换csv_file.csv为你想要转换的csv文件
+确保更换```csv_file.csv```为你想要转换的csv文件
 
-__压缩列表__
+__列表辗平__
 
-您可以通过使用itertools包中的itertools.chain.from_iterable轻松快速的对列表进行压缩。下面是一个简单的例子：
+您可以通过使用```itertools```包中的```itertools.chain.from_iterable```轻松快速的辗平一个列表。下面是一个简单的例子：
 ```python
     a_list = [[1, 2], [3, 4], [5, 6]]
     print(list(itertools.chain.from_iterable(a_list)))
@@ -49,14 +58,14 @@ __压缩列表__
     # Output: [1, 2, 3, 4, 5, 6]
 ```
 
-__一行构造方法__
+__一行式的构造器__
 
-避免类初始化的时候大量参数的分配
+避免类初始化时大量重复的赋值语句
 ```python
     class A(object):
         def __init__(self, a, b, c, d, e, f):
             self.__dict__.update({k: v for k, v in locals().items() if k != 'self'})
 ```
-更多的一行方法请参考[相关Python网站](https://wiki.python.org/moin/Powerful%20Python%20One-Liners)。
+更多的一行方法请参考[Python官方文档](https://wiki.python.org/moin/Powerful%20Python%20One-Liners)。
 
 
