@@ -43,7 +43,7 @@
    * [dir](introspection/dir.md)
    * [type和id](introspection/type_and_id.md)
    * [inspect模块](introspection/inspect.md)
-* [推导式(Comprehension)](Comprehensions/README.md)
+* [推导式 Comprehension](Comprehensions/README.md)
    * [列表推导式](Comprehensions/list-comprehensions.md)
    * [字典推导式](Comprehensions/dict-comprehensions.md)
    * [集合推导式](Comprehensions/set-comprehensions.md)
