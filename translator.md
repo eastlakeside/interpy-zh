@@ -11,7 +11,6 @@
 
 
 ## 本译作已开源，欢迎PullRequest
-> gitbook 与 github 已绑定
-
 - gitbook: https://www.gitbook.com/book/eastlakeside/interpy-zh/details
 - github: https://github.com/eastlakeside/interpy-zh
+- gitbook 与 github 已绑定，会互相同步
