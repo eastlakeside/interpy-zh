@@ -37,7 +37,7 @@
 * [对象变动(Mutation)](Mutation/README.md)
 * [__slots__魔法](slots_magic/README.md)
 * [虚拟环境](virtual_environment/virtual_environment.md)
-* [Collections](collections/collections.md)
+* [容器 Collections](collections/collections.md)
 * [Enumerate](Enumerate/Enumerate.md)
 * [对象自省](introspection/README.md)
    * [dir](introspection/dir.md)
