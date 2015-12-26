@@ -38,7 +38,7 @@
 * [__slots__魔法](slots_magic/README.md)
 * [虚拟环境](virtual_environment/virtual_environment.md)
 * [容器 Collections](collections/collections.md)
-* [Enumerate](Enumerate/Enumerate.md)
+* [枚举 Enumerate](Enumerate/Enumerate.md)
 * [对象自省](introspection/README.md)
    * [dir](introspection/dir.md)
    * [type和id](introspection/type_and_id.md)
