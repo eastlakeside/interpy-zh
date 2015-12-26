@@ -34,7 +34,7 @@
        * [装饰器类](decorators/deco_class.md)
 * [Global和Return](global_return/README.md)
    * [多个return值](global_return/multiple_return_values.md)
-* [对象变动(Mutation)](Mutation/README.md)
+* [对象变动 Mutation](Mutation/README.md)
 * [__slots__魔法](slots_magic/README.md)
 * [虚拟环境](virtual_environment/virtual_environment.md)
 * [容器 Collections](collections/collections.md)
