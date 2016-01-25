@@ -3,7 +3,10 @@
 我是 Muhammad Yasoob Ullah Khalid. 
 
 我已经广泛使用 Python 编程有3年多了. 同是参与了很多开源项目. 并定期在[我的博客](http://pythontips.com/)里写一些有趣的 Python 话题. 2014年我在在柏林举办欧洲最大的Python会议： EuroPython 上做过演讲. 
+> 译者注：分享的主题为：Session: Web Scraping in Python 101 地址：https://ep2014.europython.eu/en/schedule/sessions/20/
+
 如果你能给我有意思的工作机会, 请联系我哦.
+> 译者注：嗯，你来中国么，HOHO
 
 # 作者前言
 
