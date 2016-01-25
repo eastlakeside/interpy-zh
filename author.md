@@ -9,7 +9,7 @@
 地址：https://ep2014.europython.eu/en/schedule/sessions/20/
 
 如果你能给我有意思的工作机会, 请联系我哦.
-> 译者注：嗯，你来中国么，HOHO
+> 译者注：嗯，硬广，你来中国么，HOHO
 
 # 作者前言
 
