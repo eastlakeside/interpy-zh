@@ -2,7 +2,7 @@
 
 我是 Muhammad Yasoob Ullah Khalid. 
 
-我已经广泛使用 Python 编程3年多了. 同是参与了很多开源项目. 并定期在[我的博客](http://pythontips.com/)里写一些有趣的 Python 话题. 2014年我在柏林举办的欧洲最大的Python会议： EuroPython 上做过演讲. 
+我已经广泛使用 Python 编程3年多了. 同是参与了很多开源项目. 并定期在[我的博客](http://pythontips.com/)里写一些关于Python有趣的话题. 2014年我在柏林举办的欧洲最大的Python会议： EuroPython 上做过演讲. 
 > 译者注：分享的主题为：《Session: Web Scraping in Python 101》
 地址：https://ep2014.europython.eu/en/schedule/sessions/20/
 
@@ -19,7 +19,7 @@ Python 是一门奇妙的语言, 还有一个强大而友爱的程序员社区.
 然而, 在你理解消化掉 Python 的基础后, 关于下一步学习什么的资料比较缺乏. 而我正是要通过本书来解决这一问题.
 我会给你一些可以进一步探索的有趣的话题的信息.
 
-本书讨论的这些话题将会打开你的脑洞, 将你引导至 Python 语言的一些美好的角落. 我最开始学习 Python 时, 渴望遇到这些美好, 而本书正是这些渴望的结果.
+本书讨论的这些话题将会打开你的脑洞, 将你引导至 Python 语言的一些美好的地方. 我最开始学习 Python 时, 渴望遇到这些美好, 而本书正是这些渴望的结果.
 
 无论你是个初学者, 中级或者甚至高级程序员, 你都会在这本书里有所收获.
 
