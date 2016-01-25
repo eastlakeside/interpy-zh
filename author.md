@@ -2,8 +2,7 @@
 
 我是 Muhammad Yasoob Ullah Khalid. 
 
-我已经广泛使用 Python 编程有3年多了. 我也参与了很多开源项目.   
-我定期在我的博客里写到有趣的 Python 话题. 2014年我还在柏林举办的 EuroPython 上做过演讲. 那是欧洲最大的 Python 会议.  
+我已经广泛使用 Python 编程有3年多了. 同是参与了很多开源项目. 并定期在[我的博客](http://pythontips.com/)里写一些有趣的 Python 话题. 2014年我在在柏林举办欧洲最大的Python会议： EuroPython 上做过演讲. 
 如果你能给我有意思的工作机会, 请联系我哦.
 
 # 作者前言
