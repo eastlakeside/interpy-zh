@@ -7,7 +7,7 @@ Or https://docs.python.org/3/library/pdb.html
 
 ### 从命令行运行
 
-你可以使用Python debugger从命令行运行一段脚本， 举个例子：
+你可以在命令行使用Python debugger运行一段脚本， 举个例子：
 ```bash
 $ python -m pdb my_script.py
 ```
