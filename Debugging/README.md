@@ -2,6 +2,9 @@
 
 调试也是一种重要的东西，一旦掌握，能大大提高你的bug捕捉技术。大部分新人忽略了Python debugger(```pdb```)的重要性。 在这个章节我只会告诉你一些重要的命令，你可以从官方文档中学习到更多。
 
+> 译者注，参考：https://docs.python.org/2/library/pdb.html
+Or https://docs.python.org/3/library/pdb.html
+
 ### 从命令行运行
 
 你可以使用Python debugger从命令行运行一段脚本， 举个例子：
