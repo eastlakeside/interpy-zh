@@ -11,7 +11,8 @@ Or https://docs.python.org/3/library/pdb.html
 ```bash
 $ python -m pdb my_script.py
 ```
-这会触发debugger在它找到的第一行指令处停止执行。这在你写的脚本很短时会很有帮助。你可以接着查看变量信息，并且逐行继续执行。
+
+这会触发debugger在脚本第一行指令处停止执行。这在脚本很短时会很有帮助。你可以通过(Pdb)模式接着查看变量信息，并且逐行调。
 
 ### 从脚本内部运行
 
