@@ -16,7 +16,7 @@ def test_var_args(f_arg, *argv):
 test_var_args('yasoob', 'python', 'eggs', 'test')
 ```
 
-这会产生如下的输出结果:
+这会产生如下输出:
 
 ```python
 first normal arg: yasoob
