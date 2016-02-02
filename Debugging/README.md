@@ -1,6 +1,6 @@
 # 调试（Debugging）
 
-调试这种技能，能大大帮助你捕捉代码BUG的速度。大部分新人忽略了Python debugger(```pdb```)的重要性。 在这个章节我只会告诉你一些重要的命令，你可以从官方文档中学习到更多。
+利用好调试，能大大降低你捕捉代码Bug的时间。大部分新人忽略了Python debugger(```pdb```)的重要性。 在这个章节我只会告诉你一些重要的命令，你可以从官方文档中学习到更多。
 
 > 译者注，参考：https://docs.python.org/2/library/pdb.html
 Or https://docs.python.org/3/library/pdb.html
