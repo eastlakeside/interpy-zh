@@ -9,7 +9,8 @@ def test_args_kwargs(arg1, arg2, arg3):
     print("arg3:", arg3)
 ```
 
-现在你可以使用```*args```或```**kwargs```来给这个小函数传递参数。 下面是怎样做：
+你可以使用```*args```或```**kwargs```来给这个小函数传递参数。 
+下面是怎样做：
 ```python
 # 首先使用 *args
 >>> args = ("two", 3, 5)
