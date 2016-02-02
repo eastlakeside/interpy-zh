@@ -47,7 +47,7 @@ a_function_requiring_decoration()
 a_function_requiring_decoration = a_new_decorator(a_function_requiring_decoration)
 ```
 
-希望你现在有了对于Python众装饰器如何工作的一个基本理解。现在我们的代码有一个问题。如果我们运行：
+希望你现在对Python的装饰器工作原理有一个基本的理解。现在我们的代码有一个问题。如果我们运行：
 
 ```python
 print(a_function_requiring_decoration.__name__)
