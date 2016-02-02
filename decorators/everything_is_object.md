@@ -20,8 +20,8 @@ print(greet())
 # 如果我们删掉旧的hi函数，看看会发生什么！
 del hi
 print(hi())
-# outputs: NameError
+#outputs: NameError
 
 print(greet())
-# outputs: 'hi yasoob'
+#outputs: 'hi yasoob'
 ```
