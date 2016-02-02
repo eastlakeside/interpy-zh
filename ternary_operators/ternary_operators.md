@@ -16,8 +16,8 @@ condition_is_true if condition else condition_is_false
 is_fat = True
 state = "fat" if is_fat else "not fat"
 ```
-它允许用简单的一行判断，而不是复杂的多行```if```语句。
-它经常会非常有用，而且可以使代码更紧凑，但依然可维护。
+它允许用简单的一行快速判断，而不是使用复杂的多行```if```语句。
+这在大多数时候非常有用，而且可以使代码简洁可维护。
 
 另一个晦涩一点的用法比较少见，它使用了元组，请继续看：
 
