@@ -36,7 +36,7 @@ fitness = ("skinny", "fat")[fat]
 print("Ali is ", fitness)
 #输出: Ali is fat
 ```
-这之所以工作，是因为在Python中，True等于1，而False等于0，这就相当于在元组中使用0和1来选取数据。
+这之所以能正常工作，是因为在Python中，True等于1，而False等于0，这就相当于在元组中使用0和1来选取数据。
 
 上面的例子没有被广泛使用，而且Python玩家一般不喜欢那样，因为没有Python味儿(Pythonic)。这样的用法很容易把真正的数据与true/false弄混。
 
