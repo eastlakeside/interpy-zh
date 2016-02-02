@@ -54,7 +54,7 @@ print(a_function_requiring_decoration.__name__)
 # Output: wrapTheFunction
 ```
 
-那不是我们想要的！它的名字是“a_function_requiring_decoration”。好吧，我们的函数被warpTheFunction替代了。它重写了我们函数的名字和注释文档(docstring)。幸运的是Python提供给我们一个简单的函数来解决这个问题，那就是functools.wraps。我们修改上一个例子来使用functools.wraps：
+这并不是我们想要的！Ouput输出应该是“a_function_requiring_decoration”。好吧，我们的函数被warpTheFunction替代了。它重写了我们函数的名字和注释文档(docstring)。幸运的是Python提供给我们一个简单的函数来解决这个问题，那就是functools.wraps。我们修改上一个例子来使用functools.wraps：
 
 ```python
 from functools import wraps
