@@ -6,7 +6,7 @@
 **伪代码:**
 
 ```python
-#返回真 如果 条件为真 否则 返回假
+#如果条件为真，返回真 否则返回假
 condition_is_true if condition else condition_is_false
 ```
 
