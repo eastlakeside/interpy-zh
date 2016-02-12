@@ -1,6 +1,6 @@
 # 对象变动(Mutation)
 
-Python中可变(**mutable**)与不可变(**immutable**)的数据类型让新程序员们很是头痛。简单的说，可变(mutable)意味着"可以被改动"，而不可变(immutable)的意思是“常量(constant)”。想把脑筋转动起来吗？考虑下这个例子：
+Python中可变(**mutable**)与不可变(**immutable**)的数据类型让新手们很是头痛。简单的说，可变(mutable)意味着"可以被改动"，而不可变(immutable)的意思是“常量(constant)”。想把脑筋转动起来吗？考虑下这个例子：
 
 ```python
 foo = ['hi']
