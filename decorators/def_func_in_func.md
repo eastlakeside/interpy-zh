@@ -1,6 +1,6 @@
 # 在函数中定义函数
 
-刚才那些就是函数的基本知识了。我们来让你的知识更进一步。在Python中我们可以在一个函数中定义另外的函数：
+刚才那些就是函数的基本知识了。我们来让你的知识更进一步。在Python中我们可以在一个函数中定义另一个函数：
 ```python
 def hi(name="yasoob"):
     print("now you are inside the hi() function")

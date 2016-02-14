@@ -38,7 +38,6 @@ print(input_set.intersection(valid))
 ### 输出: set(['red'])
 ```
 
-
 ## 差集
 
 你可以用差集(difference)找出无效的数据，相当于用一个集合减去另一个集合的数据，例如：

@@ -1,6 +1,6 @@
 # 日志(Logging)
 
-日志是装饰器另一个非常亮眼的领域。这是个例子：
+日志是装饰器运用的另一个亮点。这是个例子：
 ```python
 from functools import wraps
 

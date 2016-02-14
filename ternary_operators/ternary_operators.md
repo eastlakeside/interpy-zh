@@ -6,7 +6,7 @@
 **伪代码:**
 
 ```python
-#返回真 如果 条件为真 否则 返回假
+#如果条件为真，返回真 否则返回假
 condition_is_true if condition else condition_is_false
 ```
 
@@ -16,8 +16,8 @@ condition_is_true if condition else condition_is_false
 is_fat = True
 state = "fat" if is_fat else "not fat"
 ```
-它允许用简单的一行判断，而不是复杂的多行```if```语句。
-它经常会非常有用，而且可以使代码更紧凑，但依然可维护。
+它允许用简单的一行快速判断，而不是使用复杂的多行```if```语句。
+这在大多数时候非常有用，而且可以使代码简单可维护。
 
 另一个晦涩一点的用法比较少见，它使用了元组，请继续看：
 
@@ -36,7 +36,7 @@ fitness = ("skinny", "fat")[fat]
 print("Ali is ", fitness)
 #输出: Ali is fat
 ```
-这之所以工作，是因为在Python中，True等于1，而False等于0，这就相当于在元组中使用0和1来选取数据。
+这之所以能正常工作，是因为在Python中，True等于1，而False等于0，这就相当于在元组中使用0和1来选取数据。
 
 上面的例子没有被广泛使用，而且Python玩家一般不喜欢那样，因为没有Python味儿(Pythonic)。这样的用法很容易把真正的数据与true/false弄混。
 
