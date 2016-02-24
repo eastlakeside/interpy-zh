@@ -317,6 +317,4 @@ Species['cat']
 Species.cat
 ```
 
-
-
 这只是一个快速浏览```collections```模块的介绍，建议你阅读本文最后的官方文档。
