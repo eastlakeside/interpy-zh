@@ -6,13 +6,13 @@
 
 本节中，我将介绍一些技巧，让你的脚本同时兼容Python2和Python3。
 
-*Future模块导入*
+**Future模块导入**
 
-第一种也是最重要的方法，就是导入```*future*```模块。它可以帮你在Python2中导入Python3的功能。这有一组例子：
+第一种也是最重要的方法，就是导入```**future**```模块。它可以帮你在Python2中导入Python3的功能。这有一组例子：
 
 上下文管理器是Python2.6+引入的新特性，如果你想在Python2.5中使用它可以这样做：
 ```python
-from *future** import with_statement
+from **future** import with_statement
 
 ```
 
