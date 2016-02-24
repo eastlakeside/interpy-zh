@@ -25,7 +25,6 @@ print
 from **future** import print_function
 print(print)
 # Output: <built-in function print>
-
 ```
 
 **模块重命名**
@@ -36,14 +35,12 @@ print(print)
 import foo 
 # or
 from foo import bar
-
 ```
 
 你知道么，其实你也可以这样做：
 
 ```python
 import foo as foo
-
 ```
 
 这样做可以起到和上面代码同样的功能，但最重要的是它能让你的脚本同时兼容Python2和Python3。现在我们来看下面的代码：
