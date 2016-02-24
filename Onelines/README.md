@@ -37,7 +37,7 @@
 ```
 备注：```cProfile```是一个比```profile```更快的实现，因为它是用c写的
 
-__CSV转换为json__
+*CSV转换为json*
 
 在命令行执行这条指令
 ```sh
@@ -45,7 +45,7 @@ __CSV转换为json__
 ```
 确保更换```csv_file.csv```为你想要转换的csv文件
 
-__列表辗平__
+*列表辗平*
 
 您可以通过使用```itertools```包中的```itertools.chain.from_iterable```轻松快速的辗平一个列表。下面是一个简单的例子：
 ```python
@@ -58,13 +58,13 @@ __列表辗平__
     # Output: [1, 2, 3, 4, 5, 6]
 ```
 
-__一行式的构造器__
+*一行式的构造器*
 
 避免类初始化时大量重复的赋值语句
 ```python
     class A(object):
-        def __init__(self, a, b, c, d, e, f):
-            self.__dict__.update({k: v for k, v in locals().items() if k != 'self'})
+        def *init**(self, a, b, c, d, e, f):
+            self.**dict**.update({k: v for k, v in locals().items() if k != 'self'})
 ```
 更多的一行方法请参考[Python官方文档](https://wiki.python.org/moin/Powerful%20Python%20One-Liners)。
 
