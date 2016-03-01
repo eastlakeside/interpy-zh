@@ -63,8 +63,8 @@
 避免类初始化时大量重复的赋值语句
 ```python
     class A(object):
-        def **init**(self, a, b, c, d, e, f):
-            self.**dict**.update({k: v for k, v in locals().items() if k != 'self'})
+        def __init__(self, a, b, c, d, e, f):
+            self.__dict__.update({k: v for k, v in locals().items() if k != 'self'})
 ```
 更多的一行方法请参考[Python官方文档](https://wiki.python.org/moin/Powerful%20Python%20One-Liners)。
 
