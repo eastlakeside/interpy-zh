@@ -8,21 +8,21 @@
 
 **Future模块导入**
 
-第一种也是最重要的方法，就是导入```**future**```模块。它可以帮你在Python2中导入Python3的功能。这有一组例子：
+第一种也是最重要的方法，就是导入```__future__```模块。它可以帮你在Python2中导入Python3的功能。这有一组例子：
 
 上下文管理器是Python2.6+引入的新特性，如果你想在Python2.5中使用它可以这样做：
 ```python
-from **future** import with_statement
+from __future__ import with_statement
 
 ```
 
-在Python3中```print```已经变为一个函数。如果你想在Python2中使用它可以通过```**future**```导入：
+在Python3中```print```已经变为一个函数。如果你想在Python2中使用它可以通过```__future__```导入：
 
 ```python
 print
 # Output:
 
-from **future** import print_function
+from __future__ import print_function
 print(print)
 # Output: <built-in function print>
 ```
