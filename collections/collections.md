@@ -215,7 +215,6 @@ print(perry.name)
 ## 输出: 'perry'
 ```
 
-
 现在你可以看到，我们可以用名字来访问```namedtuple```中的数据。我们再继续分析它。一个命名元组(```namedtuple```)有两个必需的参数。它们是元组名称和字段名称。
 
 在上面的例子中，我们的元组名称是```Animal```，字段名称是'name'，'age'和'type'。  
@@ -317,7 +316,5 @@ Species(1)
 Species['cat']
 Species.cat
 ```
-
-
 
 这只是一个快速浏览```collections```模块的介绍，建议你阅读本文最后的官方文档。
