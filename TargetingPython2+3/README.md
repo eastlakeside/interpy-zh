@@ -6,7 +6,7 @@
 
 本节中，我将介绍一些技巧，让你的脚本同时兼容Python2和Python3。
 
-__Future模块导入__
+**Future模块导入**
 
 第一种也是最重要的方法，就是导入```__future__```模块。它可以帮你在Python2中导入Python3的功能。这有一组例子：
 
@@ -25,10 +25,9 @@ print
 from __future__ import print_function
 print(print)
 # Output: <built-in function print>
-
 ```
 
-__模块重命名__
+**模块重命名**
 
 首先，告诉我你是如何在你的脚本中导入模块的。大多时候我们会这样做：
 
@@ -36,14 +35,12 @@ __模块重命名__
 import foo 
 # or
 from foo import bar
-
 ```
 
 你知道么，其实你也可以这样做：
 
 ```python
 import foo as foo
-
 ```
 
 这样做可以起到和上面代码同样的功能，但最重要的是它能让你的脚本同时兼容Python2和Python3。现在我们来看下面的代码：
@@ -61,7 +58,7 @@ except ImportError:
 
 最后，你要了解```as```关键字的作用。它将导入的模块映射到```urllib.request```，所以我们通过```urllib_request```这个别名就可以使用```urllib2```中的所有类和方法了。
 
-__过期的Python2内置功能__
+**过期的Python2内置功能**
 
 另一个需要了解的事情就是Python2中有12个内置功能在Python3中已经被移除了。要确保在Python2代码中不要出现这些功能来保证对Python3的兼容。这有一个强制让你放弃12内置功能的方法：
 
@@ -80,7 +77,7 @@ apply()
 
 ```
 
-__标准库向下兼容的外部支持__
+**标准库向下兼容的外部支持**
 
 有一些包在非官方的支持下为Python2提供了Python3的功能。例如，我们有：
 
