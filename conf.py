@@ -4,11 +4,10 @@
 这个文件是用于构建readthedocs的配置文件，
 
 ReadTheDocs的规范：
-1. 从docs目录读取所有文档
+1. 从docs目录读取所有文档 (已经在根目录下 ln -s . docs了)
 2. 使用根目录下的mkdocs.yml作为目录
 
 ReadTheDocs本地构建Gitbook的md文件： 
->>> ln -s . docs
 >>> pip install mkdocs
 >>> mkdocs build --clean --site-dir _build/html
 >>> mkdocs serve
