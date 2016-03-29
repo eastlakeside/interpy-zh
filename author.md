@@ -1,4 +1,4 @@
-# 关于作者
+# 关于原作者
 
 我是 Muhammad Yasoob Ullah Khalid. 
 
