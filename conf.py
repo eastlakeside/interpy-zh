@@ -8,6 +8,7 @@ ReadTheDocs的规范：
 2. 使用根目录下的mkdocs.yml作为目录
 
 ReadTheDocs本地构建Gitbook的md文件： 
+>>> ln -s . docs
 >>> pip install mkdocs
 >>> mkdocs build --clean --site-dir _build/html
 >>> mkdocs serve
