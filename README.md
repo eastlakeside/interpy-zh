@@ -7,7 +7,7 @@ Python进阶
 # 开始阅读
 > 使用Gitbook阅读有更好的体验
 
-https://eastlakeside.gitbooks.io/interpy-zh/
+https://eastlakeside.gitbooks.io/interpy-zh/content/
 
 
 ## 微信打赏支持：
