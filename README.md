@@ -1,7 +1,7 @@
 Python进阶 
 =======
 
-> 开始阅读： https://www.gitbook.com/book/eastlakeside/interpy-zh/details
+> 开始阅读： https://eastlakeside.gitbooks.io/interpy-zh/
 
 # 简介
 这是一本[Intermediate Python](https://github.com/yasoob/intermediatePython) 的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
