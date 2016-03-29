@@ -1,4 +1,5 @@
 # 序
+
 这是一本[Intermediate Python](https://github.com/yasoob/intermediatePython) 的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
 这是一次团队建设、一次尝鲜、一次对自我的提升。相信每个有为青年，心里想藏着一个小宇宙：**我想要做一件有意思的事**。$$什么是有意思的事？$$ **别闹**
