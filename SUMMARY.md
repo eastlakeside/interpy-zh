@@ -65,6 +65,6 @@
    * [基于类的实现](context_managers/implement_as_class.md)
    * [处理异常](context_managers/handle_exception.md)
    * [基于生成器的实现](context_managers/implement_as_generator.md)
-* [推荐阅读](seealso.md/推荐阅读)
+* [推荐阅读](seealso.md)
 * [捐赠名单](donors.md)
 
