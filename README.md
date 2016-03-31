@@ -49,4 +49,3 @@ https://github.com/eastlakeside/interpy-zh/issues
 ### 微信打赏支持：
 > ![wechat_donate](__img/donate.png)
 
-> ![微信群](__img/reader_club.png)
