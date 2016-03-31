@@ -41,6 +41,7 @@ IntermediatePython这本书具有如下几个优点：
 刘宇 @liuyu  
 明源 @muxueqz  
 大牙 @suqi  
+蒋委员长 @jiedo
 
 ## 欢迎建议指正或直接贡献代码
 https://github.com/eastlakeside/interpy-zh/issues
