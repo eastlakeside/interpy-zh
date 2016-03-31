@@ -12,10 +12,10 @@ https://eastlakeside.gitbooks.io/interpy-zh/content/
 感谢英文原著作者 @yasoob《[Intermediate Python](https://github.com/yasoob/intermediatePython)》，有了他才有了这里的一切
 
 ## 译者
-老高 @spawnris
-刘宇 @liuyu
-明源 @muxueqz
-大牙 @suqi
+老高 @spawnris  
+刘宇 @liuyu  
+明源 @muxueqz  
+大牙 @suqi  
 
 ## 微信打赏支持：
 ![wechat_donate](__img/donate.png)
