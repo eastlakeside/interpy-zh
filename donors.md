@@ -13,3 +13,15 @@
 
 
 
+<ul>
+  <li>
+    <p>Download the package for your operating system from the project website.</p>
+    <p>|Operating system|File name|
+      |----------------|---------|
+      |Linux or Mac OS X|file.tar.gz|
+      |Windows|file.zip|</p>
+  </li>
+  <li>
+    <p>Extract the contents of the package to the directory.</p>
+  </li>
+</ul>
