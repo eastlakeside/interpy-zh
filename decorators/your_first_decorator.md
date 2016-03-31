@@ -24,9 +24,9 @@ a_function_requiring_decoration = a_new_decorator(a_function_requiring_decoratio
 #now a_function_requiring_decoration is wrapped by wrapTheFunction()
 
 a_function_requiring_decoration()
-#outputs:I am doing some boring work before executing a_function_requiring_decoration()
+#outputs:I am doing some boring work before executing a_func()
 #        I am the function which needs some decoration to remove my foul smell
-#        I am doing some boring work after executing a_function_requiring_decoration()
+#        I am doing some boring work after executing a_func()
 ```
 
 你看明白了吗？我们刚刚应用了之前学习到的原理。这正是python中装饰器做的事情！它们封装一个函数，并且用这样或者那样的方式来修改它的行为。现在你也许疑惑，我们在代码里并没有使用@符号？那只是一个简短的方式来生成一个被装饰的函数。这里是我们如何使用@来运行之前的代码：
