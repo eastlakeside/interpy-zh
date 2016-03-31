@@ -50,3 +50,5 @@ https://github.com/eastlakeside/interpy-zh/issues
 ### 微信打赏支持：
 > ![wechat_donate](__img/donate.png)
 
+> ![微信群](http://weixin.qq.com/cgi-bin/qrcode?type=user&arg=jhv6N4MIK9IDG4EsaWmnxmNexVuB23%2FhP60VbvUsRE8%3D)
+
