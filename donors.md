@@ -10,3 +10,9 @@
 | Zer* | 10.00 |
 | 牛*甫 | 5.00 |
 |  |  |
+
+
+| Markdown | HTML | Rendered |
+| -- | -- | -- |
+| `# Some Header` | `<h1>Some Header</h1>` | <h1>Some Header</h1> |
+
