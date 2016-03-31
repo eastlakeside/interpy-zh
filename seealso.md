@@ -2,7 +2,7 @@
 
 ## 本书推送贴的留言和讨论
 - v2ex: http://www.v2ex.com/t/267557
-- 微博长文
+- 微博长文: http://weibo.com/1054764633/DoN6Z5Haq?type=repost
 
 ## v2ex网友florije推荐
 - 另外一本同名IntermediatePython的更新的书  https://leanpub.com/intermediatepython
@@ -19,7 +19,7 @@
 
 ## v2ex推荐学习书目
 
-[Learn Python the Hard Way](http://learn-python-the-hard-way-zh_cn-translation.readthedocs.org/en/1.0/)
-[Python 学习手册-第五版中文版](https://www.gitbook.com/book/yulongjun/learning-python-in-chinese/details) 
-[Python Cookbook](http://python3-cookbook.readthedocs.org/zh_CN/latest/)
-[Python 基础教程](https://book.douban.com/subject/4866934/)
+- [Learn Python the Hard Way](http://learn-python-the-hard-way-zh_cn-translation.readthedocs.org/en/1.0/)
+- [Python 学习手册-第五版中文版](https://www.gitbook.com/book/yulongjun/learning-python-in-chinese/details) 
+- [Python Cookbook](http://python3-cookbook.readthedocs.org/zh_CN/latest/)
+- [Python 基础教程](https://book.douban.com/subject/4866934/)
