@@ -6,6 +6,7 @@ Python进阶
 ### 快速阅读传送门
 - 可以直接使用Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
 - 也可以使用Gitbook更完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
+- 还可以下载pdf/epub/mobi到本地或kindle上阅读：[进入下载](https://github.com/eastlakeside/interpy-zh/releases)
 
 
 # 前言
