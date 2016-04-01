@@ -23,7 +23,7 @@ Python中的协程和生成器很相似但又稍有不同。主要区别在于�
 
 ```python
     def grep(pattern):
-        print("Searching for", parttern)
+        print("Searching for", pattern)
         while True:
             line = (yield)
             if pattern in line:
