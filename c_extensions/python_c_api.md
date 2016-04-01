@@ -1,4 +1,4 @@
-# Pyton/C API
+# Python/C API
 
 Python/C API可能是被最广泛使用的方法。它不仅简单，而且可以在C代码中操作你的Python对象。
 
