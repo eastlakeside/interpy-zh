@@ -102,7 +102,7 @@ PyArg_ParseTuple(args, "siO", &n, &s, &list);
 
 总和将被转化为一个Python对象并通过Py_BuildValue()返回给Python代码，这里的i表示我们要返回一个Python整形对象。
 
-现在我们已经编写完C模块了。将下列代码保存为setyp.py
+现在我们已经编写完C模块了。将下列代码保存为setup.py
 ```Python
 #build the modules
 
