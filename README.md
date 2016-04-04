@@ -4,9 +4,10 @@ Python进阶
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
 ### 快速阅读传送门
-- 可以直接使用Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
-- 也可以使用Gitbook更完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
-- 还可以下载pdf/epub/mobi到本地或kindle上阅读：[进入下载](https://github.com/eastlakeside/interpy-zh/releases)
+- Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
+- Gitbook完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
+- 本地或kindle上阅读：[下载pdf/epub/mobi](https://github.com/eastlakeside/interpy-zh/releases)
+- 国内镜像：访问速度更快，不过更新可能稍微滞后：[v2ex热心网友kingmo888提供](http://lizenghai.com/doc/Intermediate_Python_CN/)
 
 
 # 前言
