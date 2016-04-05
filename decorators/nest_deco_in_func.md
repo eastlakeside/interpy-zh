@@ -15,6 +15,7 @@ def logit(logfile='out.log'):
             with open(logfile, 'a') as opened_file:
                 # 现在将日志打到指定的logfile
                 opened_file.write(log_string + '\n')
+            return func(*args, **kwargs)
         return wrapped_function
     return logging_decorator
 
@@ -28,9 +29,6 @@ myfunc1()
 
 @logit(logfile='func2.log')
 def myfunc2():
-    pass
-
-myfunc2():
     pass
 
 myfunc2()
