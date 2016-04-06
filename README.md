@@ -7,8 +7,8 @@ Python进阶
 - Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
 - Gitbook完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
 - 本地或kindle上阅读：[下载pdf/epub/mobi](https://github.com/eastlakeside/interpy-zh/releases)
-- 国内镜像：访问速度更快，不过更新可能稍微滞后：[v2ex热心网友kingmo888提供](http://lizenghai.com/doc/Intermediate_Python_CN/)
-
+- 国内镜像：访问速度更快，更新可能滞后：[kingmo888@v2ex提供](http://lizenghai.com/doc/Intermediate_Python_CN/)
+- 纯代码阅读和演示：[进入code目录](https://github.com/eastlakeside/interpy-zh/tree/master/code/)
 
 # 前言
 
