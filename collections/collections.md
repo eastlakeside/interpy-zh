@@ -288,9 +288,9 @@ class Species(Enum):
     unicorn = 9
     # 依次类推
 
-    # 但我们并不想关心猫咪的年纪(译者注：作者的意思是cat, kitten, puppy，都是猫咪，只是年纪不同)，所以我们可以使用一个别名
-    kitten = 1
-    puppy = 2
+    # 但我们并不想关心同一物种的年龄，所以我们可以使用一个别名
+    kitten = 1  # (译者注：幼小的猫咪)
+    puppy = 2   # (译者注：幼小的狗狗)
 
 Animal = namedtuple('Animal', 'name age type')
 perry = Animal(name="Perry", age=31, type=Species.cat)
