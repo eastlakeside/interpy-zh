@@ -9,6 +9,8 @@ def logit(logfile='out.log'):
 
 			with open(logfile, 'a') as opened_file:
 				opened_file.write(log_string + '\n')
+
+			return func(*args, **kwargs)
 		return wrapped_function
 	return logging_decorator
 
