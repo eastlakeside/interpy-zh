@@ -1,4 +1,4 @@
-# SWIG 
+# SWIG
 
 SWIG是Simplified Wrapper and Interface Generator的缩写。是Python中调用C代码的另一种方法。在这个方法中，开发人员必须编写一个额外的接口文件来作为SWIG(终端工具)的入口。
 
@@ -6,7 +6,7 @@ Python开发者一般不会采用这种方法，因为大多数情况它会带�
 
 示例如下(来自[SWIG官网](http://www.swig.org/tutorial.html))
 
-example.c文件中的C代码包含了不同的变量和函数
+```example.c```文件中的C代码包含了不同的变量和函数
 ```C
 #include <time.h>
 double My_variable = 3.0;
