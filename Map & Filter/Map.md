@@ -9,6 +9,7 @@ map(function_to_apply, list_of_inputs)
 ```
 
 大多数时候，我们要把列表中所有元素一个个地传递给一个函数，并收集输出。比方说：
+
 ```python
 items = [1, 2, 3, 4, 5]
 squared = []
@@ -17,6 +18,7 @@ for i in items:
 ```
 
 `Map`可以让我们用一种简单而漂亮得多的方式来实现。就是这样：
+
 ```python
 items = [1, 2, 3, 4, 5]
 squared = list(map(lambda x: x**2, items))
@@ -32,8 +34,11 @@ def add(x):
 
 funcs = [multiply, add]
 for i in range(5):
-    value = list(map(lambda x: x(i), funcs))
-    print(value)
+    value = map(lambda x: x(i), funcs)
+    print(list(value))
+    # 译者注：上面print时，加了list转换，是为了python2/3的兼容性
+    #        在python2中map直接返回列表，但在python3中返回迭代器
+    #        因此为了兼容python3, 需要list转换一下
 
 # Output:
 # [0, 0]
