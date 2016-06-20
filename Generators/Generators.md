@@ -35,8 +35,11 @@ def fibon(n):
     for i in range(n):
         yield a
         a, b = b, a + b
-Now we can use it like this:
+```
 
+函数使用方法如下：
+
+```
 for x in fibon(1000000):
     print(x)
 ```
