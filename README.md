@@ -1,6 +1,8 @@
 Python进阶 
 =======
 
+[![Join the chat at https://gitter.im/eastlakeside/interpy-zh](https://badges.gitter.im/eastlakeside/interpy-zh.svg)](https://gitter.im/eastlakeside/interpy-zh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
 ### 快速阅读传送门
