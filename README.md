@@ -9,8 +9,8 @@ Python进阶
 - Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
 - Gitbook完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
 - 本地或kindle上阅读：[下载pdf/epub/mobi](https://github.com/eastlakeside/interpy-zh/releases)
-- 镜像（极客学院收录）：[极客Wiki](http://wiki.jikexueyuan.com/project/interpy-zh/)
-- 镜像（国内网友私站）：[kingmo888@v2ex提供](http://lizenghai.com/doc/Intermediate_Python_CN/)
+- 国内推荐镜像（实时同步）：[极客学院收录](http://wiki.jikexueyuan.com/project/interpy-zh/)
+- 其他镜像（不定期同步）：[Pythontab收录](http://docs.pythontab.com/interpy/)
 - 纯代码阅读和演示：[进入code目录](https://github.com/eastlakeside/interpy-zh/tree/master/code/)
 
 # 前言
@@ -44,8 +44,8 @@ IntermediatePython这本书具有如下几个优点：
 ## 译者
 老高 @spawnris  
 刘宇 @liuyu  
-明源 @muxueqz  
-大牙 @suqi  
+明源 @muxueqz  
+大牙matt @suqi  
 蒋委员长 @jiedo
 
 ## 欢迎建议指正或直接贡献代码
