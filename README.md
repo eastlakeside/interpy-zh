@@ -44,8 +44,8 @@ IntermediatePython这本书具有如下几个优点：
 ## 译者
 老高 @spawnris  
 刘宇 @liuyu  
-明源 @muxueqz  
-大牙matt @suqi  
+明源 @muxueqz  
+大牙matt @suqi  
 蒋委员长 @jiedo
 
 ## 欢迎建议指正或直接贡献代码
