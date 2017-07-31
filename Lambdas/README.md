@@ -29,6 +29,6 @@ __列表排序__
 __列表并行排序__
 ```python
     data = zip(list1, list2)
-    data.sort()
+    data = sorted(data)
     list1, list2 = map(lambda t: list(t), zip(*data))
 ```
