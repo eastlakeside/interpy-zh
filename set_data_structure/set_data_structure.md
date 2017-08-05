@@ -49,7 +49,7 @@ print(input_set.difference(valid))
 ### 输出: set(['brown'])
 ```
 
-你也可以用符号来创建集合，如：
+你也可以用`{}`符号来创建集合，如：
 
 ```python
 a_set = {'red', 'blue', 'green'}
