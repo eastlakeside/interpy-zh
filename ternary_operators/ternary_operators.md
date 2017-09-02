@@ -1,5 +1,5 @@
 # 三元运算符
-三元运算符通常在Python里被称为条件表达式，这些表达式基于真(true)/假(not)的条件判断，在Python 2.4以上才有了三元操作。
+三元运算符通常在Python里被称为条件表达式，这些表达式基于真(true)/假(false)的条件判断，在Python 2.4以上才有了三元操作。
 
 下面是一个伪代码和例子：
 
@@ -33,12 +33,12 @@ state = "fat" if is_fat else "not fat"
 ```python
 fat = True
 fitness = ("skinny", "fat")[fat]
-print("Ali is ", fitness)
+print("Ali is", fitness)
 #输出: Ali is fat
 ```
 这之所以能正常工作，是因为在Python中，True等于1，而False等于0，这就相当于在元组中使用0和1来选取数据。
 
-上面的例子没有被广泛使用，而且Python玩家一般不喜欢那样，因为没有Python味儿(Pythonic)。这样的用法很容易把真正的数据与true/false弄混。
+上面的例子没有被广泛使用，而且Python玩家一般不喜欢那样，因为没有Python味儿(Pythonic)。这样的用法很容易把真正的数据与True/False弄混。
 
 另外一个不使用元组条件表达式的缘故是因为在元组中会把两个条件都执行，而 `if-else` 的条件表达式不会这样。
 
@@ -46,10 +46,10 @@ print("Ali is ", fitness)
 
 ```python
 condition = True
-print(2 if condition else 1/0)
+print(2 if condition else 1 / 0)
 #输出: 2
 
-print((1/0, 2)[condition])
+print((1 / 0, 2)[condition])
 #输出ZeroDivisionError异常
 ```
 
