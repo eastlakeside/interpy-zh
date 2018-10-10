@@ -40,11 +40,10 @@ IntermediatePython这本书具有如下几个优点：
 感谢英文原著作者 @yasoob《[Intermediate Python](https://github.com/yasoob/intermediatePython)》，有了他才有了这里的一切
 
 ## 译者
-老高 @spawnris  
-刘宇 @liuyu  
-明源 @muxueqz  
-大牙matt @suqi  
-蒋委员长 @jiedo
+总顾问+审校: 刘宇 @liuyu  
+主译: PyCon老高 @spawnris  
+主译: 大牙matt @suqi  
+参译: 明源 @muxueqz  
 
 ## 欢迎建议指正或直接贡献代码
 https://github.com/eastlakeside/interpy-zh/issues
