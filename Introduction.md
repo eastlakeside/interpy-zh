@@ -1,12 +1,12 @@
 # 序
 
-这是一本[Intermediate Python](https://github.com/yasoob/intermediatePython) 的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
+这是一本 [Intermediate Python](https://github.com/yasoob/intermediatePython) 的中文译本，谨以此献给进击的 Python 和 Python 程序员们!
 
 这是一次团队建设、一次尝鲜、一次对自我的提升。相信每个有为青年，心里想藏着一个小宇宙：**我想要做一件有意思的事**。$$什么是有意思的事？$$ **别闹**
 
-Python，作为一个"老练"、"小清新"的开发语言，已受到广大才男俊女的喜爱。我们也从最基础的Python粉，经过时间的摧残慢慢的变成了Python老鬼。因此一开始 @大牙 提出要翻译点什么的时候，我还是挺兴奋的，团队一起协作，不单可以磨练自己，也能加强团队之间的协作。为此在经过短暂的讨论后，翻译的内容就定为：《Intermediate Python》。
+Python，作为一个"老练"、"小清新"的开发语言，已受到广大才男俊女的喜爱。我们也从最基础的 Python 粉，经过时间的摧残慢慢的变成了 Python 老鬼。因此一开始 @大牙 提出要翻译点什么的时候，我还是挺兴奋的，团队一起协作，不单可以磨练自己，也能加强团队之间的协作。为此在经过短暂的讨论后，翻译的内容就定为：《Intermediate Python》。
 
-IntermediatePython这本书具有如下几个优点：
+Intermediate Python 这本书具有如下几个优点：
 
 1. 简单
 2. 易读
