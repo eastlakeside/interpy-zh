@@ -1,6 +1,7 @@
-# 日志(Logging)
+# 日志（Logging）
 
 日志是装饰器运用的另一个亮点。这是个例子：
+
 ```python
 from functools import wraps
 
@@ -22,4 +23,3 @@ result = addition_func(4)
 ```
 
 我敢肯定你已经在思考装饰器的一个其他聪明用法了。
-
