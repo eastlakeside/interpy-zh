@@ -1,3 +1,4 @@
+from __future__ import print_function
 class File(object):
 	def __init__(self, file_name, method):
 		self.file_obj = open(file_name, method)
@@ -5,7 +6,7 @@ class File(object):
 		return self.file_obj
 	def __exit__(self, type, value, traceback):
 		# handle exception
-		print 'Exception has been handled'
+		print('Exception has been handled')
 		self.file_obj.close()
 		return True
 

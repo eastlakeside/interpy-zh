@@ -1,9 +1,10 @@
+from __future__ import print_function
 def grep(pattern):
-	print 'Searching for', pattern
+	print('Searching for', pattern)
 	while True:
 		line = (yield)
 		if pattern in line:
-			print line
+			print(line)
 
 def main():
 	search = grep('coroutine')

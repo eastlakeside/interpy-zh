@@ -1,3 +1,4 @@
+from __future__ import print_function
 def file_exception1():
 	try:
 	    file = open('test.txt', 'rb')
@@ -16,7 +17,7 @@ def file_exception2():
 	try:
 		file = open('test.txt', 'rb')
 	except (IOError, EOFError) as e:
-		print 'An error occurd. {}'.format(e.args[-1])
+		print('An error occurd. {}'.format(e.args[-1]))
 	finally:
 		...
 

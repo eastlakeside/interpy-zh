@@ -1,6 +1,7 @@
 # coding=utf-8
 # 尽量不要使用 global 来存结果
 
+from __future__ import print_function
 def add_return(value1, value2):
 	return value1 + value2
 
@@ -9,9 +10,9 @@ def add_global(value1, value2):
 	result = value1 + value2
 
 def main():
-	print add_return(1,2)
+	print(add_return(1,2))
 	add_global(5,5)
-	print result
+	print(result)
 
 if __name__ == '__main__':
 	main()

@@ -1,8 +1,9 @@
+from __future__ import print_function
 def enum_test():
 	my_list = ['apple', 'banana', 'grapes', 'pear']
 
 	for c, v in enumerate(my_list, 1):
-		print c, v
+		print(c, v)
 
 def main():
 	enum_test()

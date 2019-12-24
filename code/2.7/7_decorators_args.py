@@ -1,3 +1,4 @@
+from __future__ import print_function
 from functools import wraps
 
 def logit(logfile='out.log'):
@@ -5,7 +6,7 @@ def logit(logfile='out.log'):
 		@wraps(func)
 		def wrapped_function(*args, **kwargs):
 			log_string = func.__name__ + ' was called'
-			print log_string
+			print(log_string)
 
 			with open(logfile, 'a') as opened_file:
 				opened_file.write(log_string + '\n')

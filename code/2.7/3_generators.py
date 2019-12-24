@@ -1,3 +1,4 @@
+from __future__ import print_function
 def fibon(n):
 	a = b = 1
 	for i in range(n):
@@ -6,7 +7,7 @@ def fibon(n):
 
 def fibonacci():
 	for x in fibon(1000000):
-		print x
+		print(x)
 
 def generator_function():
 	for i in range(3):

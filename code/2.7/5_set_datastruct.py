@@ -1,3 +1,4 @@
+from __future__ import print_function
 def duplicates(some_list):
 	return set([x for x in some_list if some_list.count(x) > 1])
 
@@ -13,7 +14,7 @@ def difference():
 
 def main():
 	some_list = ['a', 'b', 'c', 'b', 'd', 'm', 'n', 'n']
-	print duplicates(some_list)
+	print(duplicates(some_list))
 	intersect()
 	difference()
 

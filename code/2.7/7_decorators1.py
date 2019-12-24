@@ -1,3 +1,4 @@
+from __future__ import print_function
 from functools import wraps
 
 def decorator_name(f):
@@ -14,7 +15,7 @@ def func():
 	return 'function is running'
 
 can_run = True
-print func()
+print(func())
 
 can_run = False
-print func()
+print(func())

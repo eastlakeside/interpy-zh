@@ -1,4 +1,5 @@
+from __future__ import print_function
 import addList
 
 l = [1,2,3,4,5]
-print 'Sum of list - ', str(l), '=', str(addList.add(l))
+print('Sum of list - ', str(l), '=', str(addList.add(l)))

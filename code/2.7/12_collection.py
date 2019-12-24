@@ -1,3 +1,4 @@
+from __future__ import print_function
 import collections, json
 
 colours = (
@@ -15,17 +16,17 @@ def defaultdict_test():
 	for name, colour in colours:
 		favourite_colours[name].append(colour)
 
-	print favourite_colours
+	print(favourite_colours)
 
 def defaultdict_keyError():
 	tree = lambda: collections.defaultdict(tree)
 	some_dict = tree()
 	some_dict['colours']['favourite'] = 'yellow'
-	print json.dumps(some_dict)
+	print(json.dumps(some_dict))
 
 def counter_test():
 	favs = collections.Counter(name for name, colour in colours)
-	print favs
+	print(favs)
 
 def deque_test():
 	d = collections.deque()
@@ -33,15 +34,15 @@ def deque_test():
 	d.append('2')
 	d.append('3')
 	d.pop()
-	print d
+	print(d)
 	d.popleft()
-	print d
+	print(d)
 
 def namedtuple_test():
 	Animal = collections.namedtuple('Animal', 'name age type')
 	perry = Animal(name='perry', age=31, type='cat')
-	print perry.name
-	print perry[0]
+	print(perry.name)
+	print(perry[0])
 	# perry.age = 21	This is wrong, you can't change it
 
 def main():

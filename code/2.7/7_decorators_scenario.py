@@ -1,3 +1,4 @@
+from __future__ import print_function
 from functools import wraps
 
 # 1. Authorization
@@ -14,7 +15,7 @@ def requires_auth(f):
 def logit(func):
 	@wraps(func)
 	def with_logging(*args, **kwargs):
-		print func.__name__ + ' was called'
+		print(func.__name__ + ' was called')
 		return func(*args, **kwargs)
 	return with_logging
 
