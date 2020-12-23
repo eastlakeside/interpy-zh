@@ -33,7 +33,7 @@ static PyObject* addList_add(PyObject* self, PyObject* args){
 static char addList_docs[] =
 "add(  ): add all elements of the list\n";
 
-/* This table contains the relavent info mapping -
+/* This table contains the relevant info mapping -
    <function-name in python module>, <actual-function>,
    <type-of-args the function expects>, <docstring associated with the function>
  */
