@@ -5,25 +5,27 @@
 幸运的是，类也可以用来构建装饰器。那我们现在以一个类而不是一个函数的方式，来重新构建 ```logit```。
 
 ```python
-from functools import wraps
-
 class logit(object):
-    def __init__(self, logfile='out.log'):
-        self.logfile = logfile
 
-    def __call__(self, func):
-        @wraps(func)
-        def wrapped_function(*args, **kwargs):
-            log_string = func.__name__ + " was called"
-            print(log_string)
-            # 打开logfile并写入
-            with open(self.logfile, 'a') as opened_file:
-                # 现在将日志打到指定的文件
-                opened_file.write(log_string + '\n')
-            # 现在，发送一个通知
-            self.notify()
-            return func(*args, **kwargs)
-        return wrapped_function
+    _logfile = 'out.log'
+
+    def __init__(self, func):
+        self.func = func
+
+    def __call__(self, *args):
+        log_string = self.func.__name__ + " was called"
+        print(log_string)
+        # 打开logfile并写入
+        with open(self._logfile, 'a') as opened_file:
+            # 现在将日志打到指定的文件
+            opened_file.write(log_string + '\n')
+        # 现在，发送一个通知
+        self.notify()
+
+        # return base func
+        return self.func(*args)
+
+
 
     def notify(self):
         # logit只打日志，不做别的
@@ -33,9 +35,13 @@ class logit(object):
 这个实现有一个附加优势，在于比嵌套函数的方式更加整洁，而且包裹一个函数还是使用跟以前一样的语法：
 
 ```python
-@logit()
+logit._logfile = 'out2.log' # 如果需要修改log文件参数
+@logit
 def myfunc1():
     pass
+
+myfunc1()
+# 输出: myfunc1 was called
 ```
 
 现在，我们给```logit```创建子类，来添加email的功能(虽然email这个话题不会在这里展开)。
