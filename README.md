@@ -54,7 +54,7 @@ https://github.com/eastlakeside/interpy-zh/issues
 
 ### 微信交流群
 
-> ![微信群](http://weixin.qq.com/cgi-bin/qrcode?type=user&arg=jhv6N4MIK9IDG4EsaWmnxmNexVuB23%2FhP60VbvUsRE8%3D)
+可参考这个issue里的指引来加群：https://github.com/eastlakeside/interpy-zh/issues/19
 
 ### 微信打赏支持：
 
