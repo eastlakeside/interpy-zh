@@ -1,6 +1,6 @@
 # 一切皆对象
 
-首先我们来理解下Python中的函数
+首先我们来理解下 Python 中的函数
 
 ```python
 def hi(name="yasoob"):

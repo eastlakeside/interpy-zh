@@ -1,6 +1,7 @@
 # 在函数中定义函数
 
-刚才那些就是函数的基本知识了。我们来让你的知识更进一步。在Python中我们可以在一个函数中定义另一个函数：
+刚才那些就是函数的基本知识了。我们来让你的知识更进一步。在 Python 中我们可以在一个函数中定义另一个函数：
+
 ```python
 def hi(name="yasoob"):
     print("now you are inside the hi() function")
@@ -27,4 +28,5 @@ hi()
 greet()
 #outputs: NameError: name 'greet' is not defined
 ```
+
 那现在我们知道了可以在函数中定义另外的函数。也就是说：我们可以创建嵌套的函数。现在你需要再多学一点，就是函数也能返回函数。

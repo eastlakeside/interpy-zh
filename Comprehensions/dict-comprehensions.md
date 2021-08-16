@@ -1,6 +1,7 @@
 # 字典推导式（```dict``` comprehensions）
 
 字典推导和列表推导的使用方法是类似的。这里有个我最近发现的例子：
+
 ```python
 mcase = {'a': 10, 'b': 34, 'A': 7, 'Z': 3}
 
@@ -17,6 +18,7 @@ mcase_frequency = {
 就我个人来说没有大量使用字典推导式。
 
 你还可以快速对换一个字典的键和值：
+
 ```python
 {v: k for k, v in some_dict.items()}
 ```

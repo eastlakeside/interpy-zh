@@ -52,6 +52,7 @@
    * [处理多个异常](exception/multiple_exception.md)
        * [finally从句](exception/finally_clause.md)
        * [try/else从句](exception/try_else_clause.md)
+* [类](classes/README.md)
 * [lambda表达式](Lambdas/README.md)
 * [一行式](Onelines/README.md)
 * [For - Else](for_else/README.md)
