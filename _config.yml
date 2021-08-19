@@ -19,10 +19,10 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Python进阶
-email: matt.su@foxmail.com
+# email: matt.su@foxmail.com
 description: 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 github_username:  eastlakeside
 
