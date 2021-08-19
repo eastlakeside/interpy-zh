@@ -28,8 +28,8 @@ github_username:  eastlakeside
 
 # Build settings
 theme: just-the-docs
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -39,97 +39,97 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
-, "docs/tests/"
-]
+# exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile"
+# , "docs/tests/"
+# ]
 
-# Enable or disable the site search
-# Supports true (default) or false
-search_enabled: true
-search:
-  # Split pages into sections that can be searched individually
-  # Supports 1 - 6, default: 2
-  heading_level: 2
-  # Maximum amount of previews per search result
-  # Default: 3
-  previews: 2
-  # Maximum amount of words to display before a matched word in the preview
-  # Default: 5
-  preview_words_before: 3
-  # Maximum amount of words to display after a matched word in the preview
-  # Default: 10
-  preview_words_after: 3
-  # Set the search token separator
-  # Default: /[\s\-/]+/
-  # Example: enable support for hyphenated search words
-  tokenizer_separator: /[\s/]+/
-  # Display the relative url in search results
-  # Supports true (default) or false
-  rel_url: true
-  # Enable or disable the search button that appears in the bottom right corner of every page
-  # Supports true or false (default)
-  button: false
+# # Enable or disable the site search
+# # Supports true (default) or false
+# search_enabled: true
+# search:
+#   # Split pages into sections that can be searched individually
+#   # Supports 1 - 6, default: 2
+#   heading_level: 2
+#   # Maximum amount of previews per search result
+#   # Default: 3
+#   previews: 2
+#   # Maximum amount of words to display before a matched word in the preview
+#   # Default: 5
+#   preview_words_before: 3
+#   # Maximum amount of words to display after a matched word in the preview
+#   # Default: 10
+#   preview_words_after: 3
+#   # Set the search token separator
+#   # Default: /[\s\-/]+/
+#   # Example: enable support for hyphenated search words
+#   tokenizer_separator: /[\s/]+/
+#   # Display the relative url in search results
+#   # Supports true (default) or false
+#   rel_url: true
+#   # Enable or disable the search button that appears in the bottom right corner of every page
+#   # Supports true or false (default)
+#   button: false
 
-# Enable or disable heading anchors
-heading_anchors: true
+# # Enable or disable heading anchors
+# heading_anchors: true
 
-# Aux links for the upper right navigation
-aux_links:
-  "《Python进阶》GitHub源码":
-    - "//github.com/eastlakeside/interpy-zh/"
+# # Aux links for the upper right navigation
+# aux_links:
+#   "《Python进阶》GitHub源码":
+#     - "//github.com/eastlakeside/interpy-zh/"
 
-# Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+# # Makes Aux links open in a new tab. Default is false
+# aux_links_new_tab: false
 
-# Sort order for navigation links
-# nav_sort: case_insensitive # default, equivalent to nil
-nav_sort: case_sensitive # Capital letters sorted before lowercase
+# # Sort order for navigation links
+# # nav_sort: case_insensitive # default, equivalent to nil
+# nav_sort: case_sensitive # Capital letters sorted before lowercase
 
-# Footer content
-# appears at the bottom of every page's main content
+# # Footer content
+# # appears at the bottom of every page's main content
 
-# Back to top link
-back_to_top: true
-back_to_top_text: "Back to top"
+# # Back to top link
+# back_to_top: true
+# back_to_top_text: "Back to top"
 
-footer_content: "Copyright &copy; 2016-现在 EastLakeSide."
+# footer_content: "Copyright &copy; 2016-现在 EastLakeSide."
 
-# Footer last edited timestamp
-last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
-last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
+# # Footer last edited timestamp
+# last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+# last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
 
 
 
-# Footer "Edit this page on GitHub" link text
-gh_edit_link: true # show or hide edit this page link
-gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/eastlakeside/interpy-zh" # the github URL for your repo
-gh_edit_branch: "master" # the branch that your docs is served from
-# gh_edit_source: docs # the source that your files originate from
-gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+# # Footer "Edit this page on GitHub" link text
+# gh_edit_link: true # show or hide edit this page link
+# gh_edit_link_text: "Edit this page on GitHub"
+# gh_edit_repository: "https://github.com/eastlakeside/interpy-zh" # the github URL for your repo
+# gh_edit_branch: "master" # the branch that your docs is served from
+# # gh_edit_source: docs # the source that your files originate from
+# gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
-# Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+# # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
+# color_scheme: nil
 
-# Google Analytics Tracking (optional)
-# e.g, UA-1234567-89
-#ga_tracking: UA-2709176-10
-#ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
+# # Google Analytics Tracking (optional)
+# # e.g, UA-1234567-89
+# #ga_tracking: UA-2709176-10
+# #ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
-# plugins:
-#   - jekyll-seo-tag # 这个会引起chrome报错Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'
+# # plugins:
+# #   - jekyll-seo-tag # 这个会引起chrome报错Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'
 
-kramdown:
-  syntax_highlighter_opts:
-    block:
-      line_numbers: false
+# kramdown:
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: false
 
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  startings: []
-  blanklines: false
-  profile: false
-  # ignore:
-  #   envs: all
+# compress_html:
+#   clippings: all
+#   comments: all
+#   endings: all
+#   startings: []
+#   blanklines: false
+#   profile: false
+#   # ignore:
+#   #   envs: all
