@@ -27,8 +27,11 @@
 # github_username:  eastlakeside
 
 # Build settings
-# remote_theme: pmarsceill/just-the-docs
-theme: jekyll-theme-architect
+
+# Github production Setting
+# theme: "just-the-docs"  ## this is for local dev
+remote_theme: pmarsceill/just-the-docs
+
 # plugins:
 #   - jekyll-feed
 

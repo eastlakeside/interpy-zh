@@ -6,11 +6,9 @@ Python进阶
 ### 快速阅读传送门
 
 - Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
-- Gitbook完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
+- GitBook完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
 - 本地或kindle上阅读：[下载pdf/epub/mobi](https://github.com/eastlakeside/interpy-zh/releases)
-- 国内推荐镜像（实时同步）：[极客学院收录](http://wiki.jikexueyuan.com/project/interpy-zh/)
-- 其他镜像（不定期同步）：[Pythontab收录](http://docs.pythontab.com/interpy/)
-- 纯代码阅读和演示：[进入code目录](https://github.com/eastlakeside/interpy-zh/tree/master/code/)
+- 样例代码：[进入code目录](https://github.com/eastlakeside/interpy-zh/tree/master/code/)
 
 # 前言
 
@@ -43,10 +41,10 @@ Python，作为一个"老练"、"小清新"的开发语言，已受到广大才�
 
 ## 译者
 
-总顾问+审校: 刘宇 @liuyu  
-主译: PyCon老高 @spawnris  
-主译: 大牙matt @suqi  
-参译: 明源 @muxueqz  
+总顾问+审校: 刘宇 [@liuyu](https://github.com/liuyu)
+主译: PyCon老高 [@spawnris](https://github.com/spawnris)
+主译: 大牙matt [@suqi](https://github.com/suqi)
+参译: 明源 [@muxueqz](https://github.com/muxueqz)
 
 ## 欢迎建议指正或直接贡献代码
 
