@@ -1,3 +1,8 @@
+---
+parent: 主页
+nav_order: 1
+---
+
 # 序
 
 这是一本 [Intermediate Python](https://github.com/yasoob/intermediatePython) 的中文译本，谨以此献给进击的 Python 和 Python 程序员们!

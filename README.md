@@ -1,10 +1,19 @@
+---
+title: 主页
+nav_order: 1
+permalink: /
+has_children: true
+---
+
+
 Python进阶
 =======
 
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
-# 在这里一站式阅读本书
-实时部署官方最新版：https://py.eastlakeside.cn
+# 阅读本书
+实时更新版本托管在GithubPages：[进入阅读](https://py.eastlakeside.cn)
+
 
 # 前言
 
