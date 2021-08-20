@@ -5,7 +5,7 @@ nav_order: 2
 
 # 译者后记
 
-## 译者大牙感言
+## 译者[老苏@suqi](https://github.com/suqi)感言
 
 在翻译过程中，慢慢发现，本书作者的行文方式有着科普作家的风范──那就是能将晦涩难懂的技术用比较清晰简洁的方式进行呈现，深入浅出的风格在每个章节的讨论中都得到了体现：
 
@@ -16,8 +16,8 @@ nav_order: 2
 
 总之，这本书非常方便随时选取一个章节进行阅读，而且每次阅读一个章节，你都可能会有一些新的发现。
 
-## 本译作已开源，欢迎 Pull Request
+## 本译作为开源书籍，欢迎 Pull Request
+- [用于直接阅读的GithubPages，实时更新部署](https://py.eastlakeside.cn)
+- [Github源码](https://github.com/eastlakeside/interpy-zh)
+- [Gitbook托管版本，由于目录结构不适配，于2021年8月停止更新](https://eastlakeside.gitbooks.io/interpy-zh/)
 
-- gitbook: https://eastlakeside.gitbooks.io/interpy-zh/
-- github: https://github.com/eastlakeside/interpy-zh
-- gitbook 与 github 已绑定，会互相同步
