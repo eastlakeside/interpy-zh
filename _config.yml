@@ -28,7 +28,7 @@
 
 # Build settings
 # remote_theme: pmarsceill/just-the-docs
-theme: "just-the-docs"
+theme: jekyll-theme-architect
 # plugins:
 #   - jekyll-feed
 
