@@ -1,10 +1,19 @@
+---
+title: 主页
+nav_order: 0
+permalink: /
+has_children: true
+---
+
+
 Python进阶
 =======
 
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
-### 快速阅读传送门
-在这里一站式阅读 (https://py.eastlakeside.cn)
+# 阅读本书
+实时更新版本托管在GithubPages：[进入阅读](https://py.eastlakeside.cn)
+
 
 # 前言
 
@@ -39,7 +48,7 @@ Python，作为一个"老练"、"小清新"的开发语言，已受到广大才�
 
 - 总顾问+审校: 刘宇 [@liuyu](https://github.com/liuyu)
 - 主译: PyCon老高 [@spawnris](https://github.com/spawnris)
-- 主译: 大牙matt [@suqi](https://github.com/suqi)
+- 主译: matt老苏 [@suqi](https://github.com/suqi)
 - 参译: 明源 [@muxueqz](https://github.com/muxueqz)
 
 ## 欢迎建议指正或直接贡献代码
