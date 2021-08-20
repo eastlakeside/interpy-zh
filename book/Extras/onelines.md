@@ -1,5 +1,5 @@
 ---
-parent: 其他只是
+parent: 其他知识
 nav_order: 1
 ---
 
