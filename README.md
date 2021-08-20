@@ -3,6 +3,9 @@ Python进阶
 
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
+### 快速阅读传送门
+在这里一站式阅读 (https://py.eastlakeside.cn)
+
 # 前言
 
 Python，作为一个"老练"、"小清新"的开发语言，已受到广大才男俊女的喜爱。我们也从最基础的Python粉，经过时间的摧残慢慢的变成了Python老鬼。
