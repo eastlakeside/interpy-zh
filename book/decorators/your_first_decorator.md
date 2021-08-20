@@ -1,3 +1,8 @@
+---
+parent: 装饰器
+nav_order: 1
+---
+
 # 你的第一个装饰器
 
 在上一个例子里，其实我们已经创建了一个装饰器！现在我们修改下上一个装饰器，并编写一个稍微更有用点的程序：
@@ -105,3 +110,50 @@ print(func())
 ```
 
 注意：```@wraps``` 接受一个函数来进行装饰，并加入了复制函数名称、注释文档、参数列表等等的功能。这可以让我们在装饰器里面访问在装饰之前的函数的属性。
+
+# 使用场景
+
+现在我们来看一下装饰器在哪些地方特别耀眼，以及使用它可以让一些事情管理起来变得更简单。
+
+# 授权（Authorization）
+
+装饰器能有助于检查某个人是否被授权去使用一个 web 应用的端点（endpoint）。它们被大量使用于 Flask 和 Django web 框架中。这里是一个例子来使用基于装饰器的授权：
+
+```python
+from functools import wraps
+
+def requires_auth(f):
+    @wraps(f)
+    def decorated(*args, **kwargs):
+        auth = request.authorization
+        if not auth or not check_auth(auth.username, auth.password):
+            authenticate()
+        return f(*args, **kwargs)
+    return decorated
+```
+
+# 日志（Logging）
+
+日志是装饰器运用的另一个亮点。这是个例子：
+
+```python
+from functools import wraps
+
+def logit(func):
+    @wraps(func)
+    def with_logging(*args, **kwargs):
+        print(func.__name__ + " was called")
+        return func(*args, **kwargs)
+    return with_logging
+
+@logit
+def addition_func(x):
+   """Do some math."""
+   return x + x
+
+
+result = addition_func(4)
+# Output: addition_func was called
+```
+
+我敢肯定你已经在思考装饰器的一个其他聪明用法了。
