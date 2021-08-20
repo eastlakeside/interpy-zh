@@ -1,6 +1,6 @@
 ---
 parent: 装饰器
-nav_order: 1
+nav_order: 2
 ---
 
 # 你的第一个装饰器

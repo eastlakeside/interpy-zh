@@ -1,3 +1,9 @@
+---
+parent: 其他知识
+nav_order: 3
+---
+
+
 # 使用 C 扩展
 
 CPython 还为开发者实现了一个有趣的特性，使用 Python 可以轻松调用 C 代码。

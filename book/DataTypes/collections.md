@@ -1,3 +1,9 @@
+---
+parent: 数据类型
+nav_order: 1
+---
+
+
 # 容器（```Collections```）
 
 Python 附带一个模块，它包含许多容器数据类型，名字叫作 ```collections```。我们将讨论它的作用和用法。

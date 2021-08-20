@@ -1,3 +1,8 @@
+---
+parent: 语法
+nav_order: 4
+---
+
 # Global 和 Return
 
 你也许遇到过, python中一些函数在最尾部有一个 ```return``` 关键字。你知道它是干嘛吗？它和其他语言的 ```return``` 类似。我们来检查下这个小函数：

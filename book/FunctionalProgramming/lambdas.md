@@ -1,3 +1,9 @@
+---
+parent: 函数式编程
+nav_order: 2
+---
+
+
 # ```lambda``` 表达式
 
 `lambda` 表达式是一行函数。  

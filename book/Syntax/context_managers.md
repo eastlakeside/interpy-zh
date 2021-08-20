@@ -1,3 +1,8 @@
+---
+parent: 语法
+nav_order: 7
+---
+
 # 上下文管理器（Context managers）
 
 上下文管理器允许你在有需要的时候，精确地分配和释放资源。  

@@ -1,3 +1,8 @@
+---
+parent: 装饰器
+nav_order: 4
+---
+
 # 函数缓存（Function caching）
 
 函数缓存允许我们将一个函数对于给定参数的返回值缓存起来。  

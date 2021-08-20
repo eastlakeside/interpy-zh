@@ -1,3 +1,9 @@
+---
+parent: 其他知识
+nav_order: 2
+---
+
+
 # 兼容 Python 2 和 3
 
 很多时候你可能希望你开发的程序能够同时兼容 Python2+ 和 Python3+。

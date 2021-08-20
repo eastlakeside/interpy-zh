@@ -1,3 +1,8 @@
+---
+parent: 数据类型
+nav_order: 2
+---
+
 # 对象变动（Mutation）
 
 Python 中可变（**mutable**）与不可变（**immutable**）的数据类型让新手很是头痛。简单的说，可变（mutable）意味着"可以被改动"，而不可变（immutable）的意思是“常量（constant）”。想把脑筋转动起来吗？考虑下这个例子：

@@ -1,6 +1,6 @@
 ---
 parent: 装饰器
-nav_order: 2
+nav_order: 3
 ---
 
 # 带参数的装饰器

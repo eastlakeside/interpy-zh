@@ -1,3 +1,8 @@
+---
+parent: 语法
+nav_order: 5
+---
+
 # ```open``` 函数
 
 [open](http://docs.python.org/dev/library/functions.html#open) 函数可以打开一个文件。超级简单吧？大多数时候，我们看到它这样被使用：
