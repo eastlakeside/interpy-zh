@@ -41,10 +41,10 @@ Python，作为一个"老练"、"小清新"的开发语言，已受到广大才�
 
 ## 译者
 
-总顾问+审校: 刘宇 [@liuyu](https://github.com/liuyu)
-主译: PyCon老高 [@spawnris](https://github.com/spawnris)
-主译: 大牙matt [@suqi](https://github.com/suqi)
-参译: 明源 [@muxueqz](https://github.com/muxueqz)
+- 总顾问+审校: 刘宇 [@liuyu](https://github.com/liuyu)
+- 主译: PyCon老高 [@spawnris](https://github.com/spawnris)
+- 主译: 大牙matt [@suqi](https://github.com/suqi)
+- 参译: 明源 [@muxueqz](https://github.com/muxueqz)
 
 ## 欢迎建议指正或直接贡献代码
 
