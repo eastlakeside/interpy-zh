@@ -18,17 +18,17 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Python进阶
+# title: "Python进阶"
 # email: matt.su@foxmail.com
-description: 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
+# description: "《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!"
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  eastlakeside
+# github_username:  eastlakeside
 
 # Build settings
-remote_theme: pmarsceill/just-the-docs
-# theme: just-the-docs
+# remote_theme: pmarsceill/just-the-docs
+theme: "just-the-docs"
 # plugins:
 #   - jekyll-feed
 
