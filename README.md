@@ -56,6 +56,3 @@ https://github.com/eastlakeside/interpy-zh/issues
 
 可参考这个issue里的指引来加群：https://github.com/eastlakeside/interpy-zh/issues/19
 
-### 微信打赏支持：
-
-> ![wechat_donate](__img/donate.png)
