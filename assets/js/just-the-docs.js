@@ -1,5 +1,3 @@
----
----
 (function (jtd, undefined) {
 
 // Event handling
@@ -50,40 +48,24 @@ function initNav() {
       mainHeader.classList.remove('nav-open');
     }
   });
-
-  {%- if site.search_enabled != false and site.search.button %}
-  const searchInput = document.getElementById('search-input');
-  const searchButton = document.getElementById('search-button');
-
-  jtd.addEvent(searchButton, 'click', function(e){
-    e.preventDefault();
-
-    mainHeader.classList.add('nav-open');
-    searchInput.focus();
-  });
-  {%- endif %}
 }
-
-{%- if site.search_enabled != false %}
 // Site search
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', '{{ "assets/js/search-data.json" | absolute_url }}', true);
+  request.open('GET', 'http://localhost:4000/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
       var docs = JSON.parse(request.responseText);
       
-      lunr.tokenizer.separator = {{ site.search.tokenizer_separator | default: site.search_tokenizer_separator | default: "/[\s\-/]+/" }}
+      lunr.tokenizer.separator = /[\s/]+/
 
       var index = lunr(function(){
         this.ref('id');
         this.field('title', { boost: 200 });
         this.field('content', { boost: 2 });
-        {%- if site.search.rel_url != false %}
         this.field('relUrl');
-        {%- endif %}
         this.metadataWhitelist = ['position']
 
         for (var i in docs) {
@@ -91,9 +73,7 @@ function initSearch() {
             id: i,
             title: docs[i].title,
             content: docs[i].content,
-            {%- if site.search.rel_url != false %}
             relUrl: docs[i].relUrl
-            {%- endif %}
           });
         }
       });
@@ -256,7 +236,7 @@ function searchLoaded(index, docs) {
             var previewEnd = position[0] + position[1];
             var ellipsesBefore = true;
             var ellipsesAfter = true;
-            for (var k = 0; k < {{ site.search.preview_words_before | default: 5 }}; k++) {
+            for (var k = 0; k < 3; k++) {
               var nextSpace = doc.content.lastIndexOf(' ', previewStart - 2);
               var nextDot = doc.content.lastIndexOf('. ', previewStart - 2);
               if ((nextDot >= 0) && (nextDot > nextSpace)) {
@@ -271,7 +251,7 @@ function searchLoaded(index, docs) {
               }
               previewStart = nextSpace + 1;
             }
-            for (var k = 0; k < {{ site.search.preview_words_after | default: 10 }}; k++) {
+            for (var k = 0; k < 3; k++) {
               var nextSpace = doc.content.indexOf(' ', previewEnd + 1);
               var nextDot = doc.content.indexOf('. ', previewEnd + 1);
               if ((nextDot >= 0) && (nextDot < nextSpace)) {
@@ -331,7 +311,7 @@ function searchLoaded(index, docs) {
         resultLink.appendChild(resultPreviews);
 
         var content = doc.content;
-        for (var j = 0; j < Math.min(previewPositions.length, {{ site.search.previews | default: 3 }}); j++) {
+        for (var j = 0; j < Math.min(previewPositions.length, 2); j++) {
           var position = previewPositions[j];
 
           var resultPreview = document.createElement('div');
@@ -347,13 +327,10 @@ function searchLoaded(index, docs) {
           }
         }
       }
-
-      {%- if site.search.rel_url != false %}
       var resultRelUrl = document.createElement('span');
       resultRelUrl.classList.add('search-result-rel-url');
       resultRelUrl.innerText = doc.relUrl;
       resultTitle.appendChild(resultRelUrl);
-      {%- endif %}
     }
 
     function addHighlightedText(parent, text, start, end, positions) {
@@ -443,7 +420,6 @@ function searchLoaded(index, docs) {
     }
   });
 }
-{%- endif %}
 
 // Switch theme
 
@@ -454,18 +430,16 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', '{{ "assets/css/just-the-docs-" | absolute_url }}' + theme + '.css');
+  cssFile.setAttribute('href', 'http://localhost:4000/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
 
 jtd.onReady(function(){
   initNav();
-  {%- if site.search_enabled != false %}
   initSearch();
-  {%- endif %}
 });
 
 })(window.jtd = window.jtd || {});
 
-{% include js/custom.js %}
+
