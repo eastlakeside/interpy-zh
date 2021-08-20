@@ -4,7 +4,7 @@ Python进阶
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
 ### 在这里一站式阅读
-https://py.eastlakeside.cn
+实时部署最新版：https://py.eastlakeside.cn
 
 # 前言
 
