@@ -3,13 +3,6 @@ Python进阶
 
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
-### 快速阅读传送门
-
-- Github快速阅读任一章节：[进入目录](https://github.com/eastlakeside/interpy-zh/blob/master/SUMMARY.md)
-- GitBook完整顺序地阅读：[进入Gitbook](https://eastlakeside.gitbooks.io/interpy-zh/content/)
-- 本地或kindle上阅读：[下载pdf/epub/mobi](https://github.com/eastlakeside/interpy-zh/releases)
-- 样例代码：[进入code目录](https://github.com/eastlakeside/interpy-zh/tree/master/code/)
-
 # 前言
 
 Python，作为一个"老练"、"小清新"的开发语言，已受到广大才男俊女的喜爱。我们也从最基础的Python粉，经过时间的摧残慢慢的变成了Python老鬼。
