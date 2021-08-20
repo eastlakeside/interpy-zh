@@ -19,7 +19,11 @@ _build
 *.pdf
 
 _site
-.sass-cache
+*.gem
+.bundle
+.ruby-version
+Gemfile.lock
 .jekyll-cache
 .jekyll-metadata
+.sass-cache
 vendor
