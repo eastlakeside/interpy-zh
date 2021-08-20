@@ -27,7 +27,8 @@ description: 《Python进阶》是《Intermediate Python》的中文译本, 谨�
 github_username:  eastlakeside
 
 # Build settings
-remote_theme: just-the-docs
+remote_theme: pmarsceill/just-the-docs
+# theme: just-the-docs
 # plugins:
 #   - jekyll-feed
 
