@@ -44,14 +44,7 @@ remote_theme: pmarsceill/just-the-docs
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude: [
-  "node_modules/", 
-  "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", 
-  "package.json", "package-lock.json",  
-  "script/", "LICENSE.txt", 
-  "lib/", "bin/", "Rakefile"
-, "docs/tests/"
-]
+exclude: ["vendor", ]
 
 # Enable or disable the site search
 # Supports true (default) or false
