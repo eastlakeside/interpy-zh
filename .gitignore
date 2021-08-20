@@ -26,4 +26,4 @@ Gemfile.lock
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
-vendor
+# vendor
