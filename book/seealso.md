@@ -7,8 +7,8 @@ nav_order: 4
 
 ## 本书推送贴的留言和讨论
 
-- v2ex: http://www.v2ex.com/t/267557
-- 微博长文: http://weibo.com/1054764633/DoN6Z5Haq?type=repost
+- [v2ex首发贴](http://www.v2ex.com/t/267557) 
+- [微博长文首发贴](http://weibo.com/1054764633/DoN6Z5Haq?type=repost) 
 
 ## v2ex网友florije推荐
 

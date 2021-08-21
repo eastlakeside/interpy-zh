@@ -12,7 +12,9 @@ Python进阶
 《Python进阶》是《Intermediate Python》的中文译本, 谨以此献给进击的 Python 和 Python 程序员们!
 
 # 阅读本书
-实时更新版本托管在GithubPages：[进入阅读](https://py.eastlakeside.cn)
+2021最新目录版，实时更新托管在GithubPages:  <https://py.eastlakeside.cn>
+
+[进入阅读](https://py.eastlakeside.cn){: .btn .btn-green }
 
 
 # 前言
@@ -53,9 +55,9 @@ Python，作为一个"老练"、"小清新"的开发语言，已受到广大才�
 
 ## 欢迎建议指正或直接贡献代码
 
-https://github.com/eastlakeside/interpy-zh/issues
+<https://github.com/eastlakeside/interpy-zh/issues>
 
 ### 微信交流群
 
-可参考这个issue里的指引来加群：https://github.com/eastlakeside/interpy-zh/issues/19
+可参考这个issue里的指引来加群：<https://github.com/eastlakeside/interpy-zh/issues/19>
 
