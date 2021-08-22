@@ -120,9 +120,10 @@ color_scheme: nil
 #ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true/nil by default)
 
 plugins:
-  - jekyll-seo-tag # 这个会引起chrome报错Error with Permissions-Policy header: Unrecognized feature: 'interest-cohort'
+  - jekyll-seo-tag 
 
 kramdown:
+  input: GFM  ## just to enable autolink like <https://kramdown.gettalong.org/syntax.html#automatic-links>
   syntax_highlighter_opts:
     block:
       line_numbers: false
