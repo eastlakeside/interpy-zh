@@ -40,6 +40,7 @@ __列表并行排序__
 
 ```python
     data = zip(list1, list2)
-    data = sorted(data)
+    data = sorted(data)  # 此处已经完成了列表并行排序
+    # 下面展示了反向zip, 即还原出被zip的2个list
     list1, list2 = map(lambda t: list(t), zip(*data))
 ```
