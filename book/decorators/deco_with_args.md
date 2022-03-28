@@ -102,9 +102,9 @@ class email_logit(logit):
     '''
     一个logit的实现版本，可以在函数调用时发送email给管理员
     '''
-    def __init__(self, email='admin@myproject.com', *args, **kwargs):
+    def __init__(self, func, email='admin@myproject.com', *args, **kwargs):
         self.email = email
-        super(email_logit, self).__init__(*args, **kwargs)
+        super(email_logit, self).__init__(func, *args, **kwargs)
 
     def notify(self):
         # 发送一封email到self.email
@@ -113,3 +113,13 @@ class email_logit(logit):
 ```
 
 从现在起，```@email_logit``` 将会和 ```@logit``` 产生同样的效果，但是在打日志的基础上，还会多发送一封邮件给管理员。
+
+```python
+email_logit._logfile = 'out3.log' # 如果需要修改log文件参数
+@email_logit
+def myfunc2():
+    pass
+
+myfunc2()
+# 输出: myfunc2 was called
+```
