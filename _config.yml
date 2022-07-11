@@ -31,7 +31,8 @@ github_username:  "eastlakeside"
 
 # Github production Setting
 # theme: "just-the-docs"  ## this is for local dev
-remote_theme: pmarsceill/just-the-docs
+remote_theme: just-the-docs/just-the-docs ## updated 2022July
+# remote_theme: pmarsceill/just-the-docs # this is old repo name
 
 # plugins:
 #   - jekyll-feed
